@@ -9,7 +9,8 @@
 html {
   --brand-color: hsl(0, 65%, 25%);
   --secondairy-color: hsl(60, 80%, 40%);
-
+  --border-color: hsl(0, 0%, 100%);
+  --border-zoom: hsl(0 0% 100%);
   /* Bron: https://projects.verou.me/css3patterns/#stairs */
   background:
     linear-gradient(63deg, var(--brand-color) 23%, transparent 23%) 7px 0,
@@ -32,6 +33,14 @@ body {
   color-scheme: light dark;
 }
 a {
-  border: 0px;
   background: none;
+  img {
+    width: 100%;
+    border: solid 5px var(--border-color);
+    transition: ease-in-out 0.2s;
+    &:hover {
+      background-color: var(--border-zoom);
+      transform: scale(1.2);
+    }
+  }
 }
