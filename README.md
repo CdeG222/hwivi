@@ -6,6 +6,8 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 11 sept
 
+Mijn concept van digital garden is goed gekeurd de docenten en ze zijn blij over mijn voortgang.
+
 ### 10 sept
 
 Ik heb 5 schetsen gemaakt. Een deepdive gedaan over gradients en ik heb code geschreven voor mijn garden.
