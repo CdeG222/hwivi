@@ -6,6 +6,25 @@
   font-style: normal;
 }
 
+html {
+  --brand-color: hsl(0, 65%, 25%);
+  --secondairy-color: hsl(60, 80%, 40%);
+
+  /* Bron: https://projects.verou.me/css3patterns/#stairs */
+  background:
+    linear-gradient(63deg, var(--brand-color) 23%, transparent 23%) 7px 0,
+    linear-gradient(63deg, transparent 74%, var(--brand-color) 78%),
+    linear-gradient(
+      63deg,
+      transparent 34%,
+      var(--brand-color) 38%,
+      var(--brand-color) 58%,
+      transparent 62%
+    ),
+    var(--secondairy-color);
+  background-size: 16px 48px;
+}
+
 body {
   font-family: "Comic Relief", system-ui;
   background-color: Canvas;

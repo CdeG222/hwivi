@@ -4,30 +4,74 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 10 sept
+
+Ik heb 5 
+
 ### 9 sept
 
-Vragenlijst
+Vragenlijst voor Jesse
 
 Eigen verbinding:​
 
 Wat is voor jou de essentie van wat je hebt gepresenteerd qua onderwerp en geschreven/beeldende content? ​
 
+Een webby websites met veel verschillende films van alle gengres erin.
+
 Welke woorden uit de kwaliteitenlijst kunnen passen bij je onderwerp?​
+
+Initief rijk, doelgericht
 
 Heeft 'de ander' een aanvulling op je onderwerp?​
 
+Probeer het niet te groot te maken.
+
 Wat is het karakter/ de uitstraling/ het gevoel dat bij het onderwerp past? (bijv. stoer, hip, vrolijk, dynamisch, eenvoudig, enz.)​
+
+Complex
+
+Welke inspiratie kun je uit je 25 afbeeldingen halen. Stijl, een gevoel, vorm, enz.
+
+Erg gemixten stijlen en dat is het goal.
+
+Verder heb ik nog de lessen afgemaakt
+
+### Casper vragenlijst
+
+Vragenlijst voor Casper.
+
+Eigen verbinding:​
+
+Wat is voor jou de essentie van wat je hebt gepresenteerd qua onderwerp en geschreven/beeldende content?
+
+​Ik dat mensen leren leren hoe ze goed dieren kunnen verzorgen.
+
+Welke woorden uit de kwaliteitenlijst kunnen passen bij je onderwerp?​
+
+Diervriendelijk.
+
+Heeft 'de ander' een aanvulling op je onderwerp?​
+
+Tips voor animatie
+
+Wat is het karakter/ de uitstraling/ het gevoel dat bij het onderwerp past? (bijv. stoer, hip, vrolijk, dynamisch, eenvoudig, enz.)​
+
+Vrolijk
 
 Welke inspiratie kun je uit je 25 afbeeldingen halen. Stijl, een gevoel, vorm, enz.​
 
-​
+Veel dierensoorten. Alle dieren lijken niet op elkaar.​
 
 Een stip op de horizon​
 
-Wat zou je willen vertellen over het onderwerp aan een ander? en hoe zou je dat voor je kunnen zien? middels welke beeld, tekst, animatie, inhoudelijke content? (bijv. Ik wil voornamelijk afbeeldingen tonen, als een soort Pinterest, of ik wil muziek fragmenten laten horen, of ik gebruik korte teksten met eigen foto's). ​
+Wat zou je willen vertellen over het onderwerp aan een ander?
+
+Het is dat je een dier goed verzorgd daarom wil
+
+en hoe zou je dat voor je kunnen zien? middels welke beeld, tekst, animatie, inhoudelijke content? (bijv. Ik wil voornamelijk afbeeldingen tonen, als een soort Pinterest, of ik wil muziek fragmenten laten horen, of ik gebruik korte teksten met eigen foto's). ​
 
 Vul deze zin aan:
-Ik wil mijn Digital Garden laten gaan over ………………………………….
+Ik wil mijn Digital Garden laten gaan over dieren verzorgen.
 en wil dat laten zien door …………………………….. aan content te tonen.
 Ik begin met een stukje eigen content over …………………….… . ​
 Als het begin is gemaakt kan ik mijn Garden verder uitbreiden door ….....................​
