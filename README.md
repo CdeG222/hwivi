@@ -4,9 +4,11 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 11 sept
+
 ### 10 sept
 
-Ik heb 5 
+Ik heb 5 schetsen gemaakt. Een deepdive gedaan over gradients en ik heb code geschreven voor mijn garden.
 
 ### 9 sept
 

@@ -31,3 +31,9 @@ body {
   color: CanvasText;
   color-scheme: light dark;
 }
+a {
+  border: 0px;
+  background: none;
+  hover background-color: white;
+  
+}
