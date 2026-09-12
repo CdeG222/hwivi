@@ -7,8 +7,8 @@
 }
 
 html {
-  --brand-color: hsl(0, 65%, 25%);
-  --secondairy-color: hsl(60, 80%, 40%);
+  --brand-color: light-dark(white, darkslategrey);
+  --secondairy-color: light-dark(skyblue, black);
   --border-color: hsl(0, 0%, 100%);
   --border-zoom: hsl(0 0% 100%);
   /* Bron: https://projects.verou.me/css3patterns/#stairs */
@@ -24,18 +24,28 @@ html {
     ),
     var(--secondairy-color);
   background-size: 16px 48px;
+  color-scheme: light dark;
 }
 
 body {
-  font-family: "Comic Relief", system-ui;
-  background-color: Canvas;
-  color: CanvasText;
-  color-scheme: light dark;
+  font-family: "arial", system-ui;
+
+  background-image: light-dark(
+    url("/assets/images/Huis-in-licht.jpg"),
+    url("/assets/images/Huis-in-donker.jpg")
+  );
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
 a {
   background: none;
   img {
-    width: 100%;
+    height: 16em;
+    width: auto;
+    /* width: 100%; */
     border: solid 5px var(--border-color);
     transition: ease-in-out 0.2s;
     &:hover {

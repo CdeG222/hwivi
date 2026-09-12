@@ -4,11 +4,17 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 12 sept
+
+Ik heb de artikelen gelezen. Wat ik ervan begrijp is: Het internet is erg fragiel en 3 bedrijven hebben een monopolie op data. Er is een beweging van Berners-lee om alle systeem meer compatebiel te maken en dat het meer trasparant wordt.
+
 ### 11 sept
 
 Mijn concept van digital garden is goed gekeurd de docenten en ze zijn blij over mijn voortgang.
 
 Reminder dark mode doeer achtergrond van huis naar nacht te maken.
+
+Ik heb de darkmode tot praat gekregen en meer knoppen ingevoegd.
 
 ### 10 sept
 
