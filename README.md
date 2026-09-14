@@ -4,6 +4,14 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 14 sept
+
+Leg uit wanneer een website 'lelijk' wordt
+
+Vertel welke volgende stap je neemt om je website responsive te maken.
+
+Heb je een plan om de volgende stap voor vrijdag te maken?
+
 ### 12 sept
 
 Ik heb de artikelen gelezen. Wat ik ervan begrijp is: Het internet is erg fragiel en 3 bedrijven hebben een monopolie op data. Er is een beweging van Berners-lee om alle systeem meer compatebiel te maken en dat het meer trasparant wordt.
