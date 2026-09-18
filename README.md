@@ -6,11 +6,16 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 14 sept
 
+Ik heb een link aangeleged en heb progressie gemaakt bij de start pagina.
+
 Leg uit wanneer een website 'lelijk' wordt
+Wanneer het moeilijk is om naar te kijken.
 
 Vertel welke volgende stap je neemt om je website responsive te maken.
+Ik maak de grid minder kolomen
 
 Heb je een plan om de volgende stap voor vrijdag te maken?
+Ik ga proberen om de start pagina af te hebben en de teskt van de hond af te hebben.
 
 ### 12 sept
 

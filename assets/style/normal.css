@@ -29,6 +29,7 @@ html {
 }
 
 body {
+  height: 100vh;
   font-family: "arial", system-ui;
 
   background-image: light-dark(
@@ -41,24 +42,27 @@ body {
 }
 
 main {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+div {
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
   display: grid;
   gap: 1.5em;
+  grid-row-start: 3;
+  grid-template-rows: 1fr 1fr;
+
   grid-template-columns: 1fr 1fr;
-  
+  justify-items: center;
+
   @media (width > 30em) {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  @media (width > 45em) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  @media (width > 60em) {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
 }
-
 a {
   background: none;
+  /* grid-row-start: 4; */
+
   img {
     height: 4em;
     border: solid 5px var(--border-color);
@@ -66,6 +70,10 @@ a {
     &:hover {
       background-color: var(--border-zoom);
       transform: scale(1.2);
+    }
+
+    @media (width > 30em) {
+      height: 6em;
     }
   }
 }
