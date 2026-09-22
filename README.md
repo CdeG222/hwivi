@@ -192,6 +192,14 @@ Kijk regelmatig kritisch naar wat je aan het doen bent en vraag je dan af of dit
 
 - Ik weet het niet mijn visie was niet compleet, de basis was er ook nog niet.
 
+Retrospective formulier
+
+![Retrospective](img-readme/Retrospective-sprint1-slecht-naar-goed.png)
+![Retrospective](img-readme/Retrospective-sprint1-slecht-naar-goed-2.png)
+
+![Retrospective](img-readme/Retrospective-sprint1-grafriek.png)
+![Retrospective](img-readme/Retrospective-sprint1-berg.png)
+
 ### 14 sept
 
 Ik heb een link aangeleged en heb progressie gemaakt bij de start pagina.
@@ -204,6 +212,9 @@ Ik maak de grid minder kolomen
 
 Heb je een plan om de volgende stap voor vrijdag te maken?
 Ik ga proberen om de start pagina af te hebben en de teskt van de hond af te hebben.
+
+![Bi-Weekly_geek](img-readme/Bi-Weekly-Geek-sprint1-2.png)
+![Bi-Weekly_geek](img-readme/Bi-weekly-Geek.png)
 
 ### 12 sept
 
