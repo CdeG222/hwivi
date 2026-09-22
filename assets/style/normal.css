@@ -1,79 +1,165 @@
-/* HIER KOMT JOUW CSS */
+/**************************
+* MARK: Fonts
+**************************/
+
 @font-face {
-  font-family: "arial";
-  src: url(../type/ComicRelief-Regular.woff2);
+  font-family: "Comic Relief";
+  src: url(../fonts/ComicRelief-Regular.woff2);
   font-weight: 400;
   font-style: normal;
 }
 
+/**************************
+* MARK: Custom properties
+**************************/
+
 html {
-  --brand-color: light-dark(white, darkslategrey);
-  --secondairy-color: light-dark(skyblue, black);
-  --border-color: hsl(0, 0%, 100%);
-  --border-zoom: hsl(0 0% 100%);
-  /* Bron: https://projects.verou.me/css3patterns/#stairs */
-  /* background:
-    linear-gradient(63deg, var(--brand-color) 23%, transparent 23%) 7px 0,
-    linear-gradient(63deg, transparent 74%, var(--brand-color) 78%),
-    linear-gradient(
-      63deg,
-      transparent 34%,
-      var(--brand-color) 38%,
-      var(--brand-color) 58%,
-      transparent 62%
-    ),
-    var(--secondairy-color);*/
-  /* background-size: 16px 48px; */
   color-scheme: light dark;
-  height: 100%;
+
+  --primairy-color: light-dark(cyan grey);
+  --second-color: light-dark(blue black);
+  --background-color: light-dark(red darkred);
+
+  --accent-color: deeppink;
+  --border-width: 0.1em;
+
+  --white-space: 2em;
+
+  --step-0: clamp(1rem, 0.9167rem + 0.3704vw, 1.25rem);
+  --step-1: clamp(1.2rem, 0.975rem + 1vw, 1.875rem);
+  --step-2: clamp(1.44rem, 0.9825rem + 2.0333vw, 2.8125rem);
+  --step-3: clamp(1.728rem, 0.8978rem + 3.69vw, 4.2188rem);
+  --step-4: clamp(2.0736rem, 0.6554rem + 6.303vw, 6.3281rem);
+  --step-5: clamp(2.4883rem, 0.1537rem + 10.3761vw, 9.4922rem);
+}
+
+/**************************
+* MARK: Algemene Styling
+**************************/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
 body {
-  height: 100vh;
-  font-family: "arial", system-ui;
+  /* font-family: "Comic Relief", system-ui; */
+  font-family:
+    Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen,
+    serif;
+  font-weight: normal;
+  background: var(--background-color);
 
-  background-image: light-dark(
-    url("/assets/images/Huis-in-licht.jpg"),
-    url("/assets/images/Huis-in-donker.jpg")
-  );
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-main {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-div {
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-  display: grid;
-  gap: 1.5em;
-  grid-row-start: 3;
-  grid-template-rows: 1fr 1fr;
-
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
 
   @media (width > 30em) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "main main"
+      "footer .";
   }
 }
-a {
-  background: none;
-  /* grid-row-start: 4; */
 
-  img {
-    height: 4em;
-    border: solid 5px var(--border-color);
-    transition: ease-in-out 0.2s;
-    &:hover {
-      background-color: var(--border-zoom);
-      transform: scale(1.2);
-    }
+article {
+  max-width: 30em;
+}
 
-    @media (width > 30em) {
-      height: 6em;
+button,
+summary {
+  cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+h1 {
+  font-size: var(--step-4);
+}
+h2 {
+  font-size: var(--step-3);
+}
+h3 {
+  font-size: var(--step-2);
+}
+h4 {
+  font-size: var(--step-1);
+}
+
+a:hover {
+  color: deeppink;
+}
+
+a:focus {
+  color: deeppink;
+  outline: 0.2em dashed deeppink;
+}
+
+label {
+  display: grid;
+}
+
+label:has([type="checkbox"]) {
+  display: flex;
+  align-items: baseline;
+}
+/**************************
+* MARK: Header
+**************************/
+
+header {
+  grid-area: header;
+}
+
+/**************************
+* MARK: Footer
+**************************/
+
+footer {
+  grid-area: footer;
+  nav {
+    position: absolute;
+    left: -999999999em;
+  }
+  ul {
+    padding: 0;
+    display: flex;
+    gap: var(--white-space);
+    li {
+      list-style: none;
     }
   }
 }
+
+/**************************
+* MARK: Main
+**************************/
+
+main {
+  grid-area: main;
+
+  gap: var(--white-space);
+  padding: var(--white-space);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+}
+
+/**************************
+* MARK: Section ...
+**************************/

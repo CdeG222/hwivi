@@ -1,0 +1,116 @@
+HTML
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="[jouw naam]" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="stylesheet" href="./assets/style/normal.css" />
+    <main>
+    <div>
+      <a href="dog.html" Informatie over de hond>
+        <img src="assets/images/Dog.png" alt="Dog" />
+      </a>
+
+      <a href="https://example.com" Informatie over de konijn>
+        <img src="assets/images/Bunny.png" alt="Bunny" />
+      </a>
+
+      <a href="https://example.com" Informatie over de cavia>
+        <img src="assets/images/Guinea pig.png" alt="Guinea pig" />
+      </a>
+
+      <a href="https://example.com" Informatie over de vis>
+        <img src="assets/images/Fish.png" alt="Fish" />
+      </a>
+      <a href="https://example.com" Informatie over de kat>
+        <img src="assets/images/Domestic-Cat.png" alt="Domestic-Cat" />
+      </a>
+    </div>
+    </main>
+  </body>
+</html>
+
+
+CSS
+
+@font-face {
+  font-family: "arial";
+  src: url(../type/ComicRelief-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  --brand-color: light-dark(white, darkslategrey);
+  --secondairy-color: light-dark(skyblue, black);
+  --border-color: hsl(0, 0%, 100%);
+  --border-zoom: hsl(0 0% 100%);
+  /* Bron: https://projects.verou.me/css3patterns/#stairs */
+  /* background:
+    linear-gradient(63deg, var(--brand-color) 23%, transparent 23%) 7px 0,
+    linear-gradient(63deg, transparent 74%, var(--brand-color) 78%),
+    linear-gradient(
+      63deg,
+      transparent 34%,
+      var(--brand-color) 38%,
+      var(--brand-color) 58%,
+      transparent 62%
+    ),
+    var(--secondairy-color);*/
+  /* background-size: 16px 48px; */
+  color-scheme: light dark;
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  font-family: "arial", system-ui;
+
+  background-image: light-dark(
+    url("/assets/images/Huis-in-licht.jpg"),
+    url("/assets/images/Huis-in-donker.jpg")
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+div {
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  display: grid;
+  gap: 1.5em;
+  grid-row-start: 3;
+  grid-template-rows: 1fr 1fr;
+
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+
+  @media (width > 30em) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+a {
+  background: none;
+  /* grid-row-start: 4; */
+
+  img {
+    height: 4em;
+    border: solid 5px var(--border-color);
+    transition: ease-in-out 0.2s;
+    &:hover {
+      background-color: var(--border-zoom);
+      transform: scale(1.2);
+    }
+
+    @media (width > 30em) {
+      height: 6em;
+    }
+  }
+}

@@ -1,8 +1,16 @@
-# Model
+_Kopieer en plak hier jouw README.md uit sprint 1._
 
-Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
+### sept 21
 
-## Learning Log
+Verse start voor nieuwe web pagina ik ga het kleiner doen en strict aan de opdracht proberen te houden
+
+Wat zijn HTML landmark role elements?
+Dan kan je makkelijk in de scrol map vinden waar je lementen heb gezet
+
+Wat zijn heading elementen en hoe horen deze 'genest' te worden?
+elementen van andere HTML die je in CSS aanpast in bv de header om die specefiek aan tepassen en niet op de hele pagina.
+
+![Cookie formulier](img-readme/cookie.png)
 
 ### 18 sept
 
@@ -213,6 +221,10 @@ Ik heb de darkmode tot praat gekregen en meer knoppen ingevoegd.
 
 Ik heb 5 schetsen gemaakt. Een deepdive gedaan over gradients en ik heb code geschreven voor mijn garden.
 
+![schets-sprint-1](img-readme/Schets%20sprint1.png)
+
+![Schets2-Sprint1](img-readme/Schets2-sprint1.png)
+
 ### 9 sept
 
 Vragenlijst voor Jesse
@@ -319,6 +331,8 @@ Verdere idee over hoe ik een garden kan maken is Wierd pets waar ik huisdieren v
 ### 5 sept - deepdives
 
 Ik heb vandaag geleerd hoe je beter kan schetsen en heb nieuwe features van CSS gevonden waaronder unieke classes.
+
+![Schets-Telefoon](img-readme/Schets-telefoon.png)
 
 ### 3 sept - [Workshop]
 
