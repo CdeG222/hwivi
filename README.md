@@ -1,5 +1,13 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### sept 22
+
+Wat is een wireflow en wat heb je er aan?
+
+Een wireflow is een schets die
+Wat zijn dark UX patterns? Geef drie voorbeelden...
+Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
+
 ### sept 21
 
 Verse start voor nieuwe web pagina ik ga het kleiner doen en strict aan de opdracht proberen te houden
