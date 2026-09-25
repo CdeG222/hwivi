@@ -2,11 +2,21 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 ### sept 22
 
+Ik heb een plan voor de Human Consent Component ik ga ze in wwn knop of pop up maken
+
 Wat is een wireflow en wat heb je er aan?
 
-Een wireflow is een schets die
+Een wireflow is een schets die een process laat zien.
+
 Wat zijn dark UX patterns? Geef drie voorbeelden...
+
+Dark UX paterns zijn patronen die de gebruiker verleiden om iets te doen wat de gebruiker waarschijnlijk niet zou doen.
+
+Price comperison, hidden costs en FOMO
+
 Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
+
+Dat het de gebruiker goed informeerd en hun een keuze geeft.
 
 ### sept 21
 

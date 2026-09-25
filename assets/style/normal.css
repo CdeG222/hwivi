@@ -16,11 +16,12 @@
 html {
   color-scheme: light dark;
 
-  --primairy-color: light-dark(cyan grey);
-  --second-color: light-dark(blue black);
-  --background-color: light-dark(red darkred);
-
-  --accent-color: deeppink;
+  --primary-color: light-dark(cyan, grey);
+  --secondary-color: light-dark(blue, black);
+  --background-secondary: light-dark(orange, rgb(70, 70, 70));
+  --background-primary: light-dark(white, black);
+  --Cookies-primairy: light-dark(White, black);
+  --Cookies-secondary: light-dark(black, white);
   --border-width: 0.1em;
 
   --white-space: 2em;
@@ -32,7 +33,6 @@ html {
   --step-4: clamp(2.0736rem, 0.6554rem + 6.303vw, 6.3281rem);
   --step-5: clamp(2.4883rem, 0.1537rem + 10.3761vw, 9.4922rem);
 }
-
 
 /**************************
 * MARK: Algemene Styling
@@ -52,30 +52,39 @@ video {
   height: auto;
 }
 
+
+dialog {
+  max-width: 32em;
+
+  background-color: var(--Cookies-primairy);
+  color: var(--Cookies-secondary);
+}
+
 body {
-  /* font-family: "Comic Relief", system-ui; */
   font-family:
     Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen,
     serif;
   font-weight: normal;
-  background: var(--background-color);
+  background: linear-gradient(
+    var(--background-primary),
+    var(--background-secondary)
+  );
 
-  display: grid;
+  /* display: grid;
   grid-template-areas:
     "header"
     "main"
-    "footer";
+    "footer"; */
 
-  @media (width > 30em) {
+  /* @media (width > 30em) {
     grid-template-areas:
       "header header"
       "main main"
       "footer .";
-  }
+  } */
 }
 
 article {
-  max-width: 30em;
 }
 
 button,
@@ -103,23 +112,6 @@ h4 {
   font-size: var(--step-1);
 }
 
-a:hover {
-  color: deeppink;
-}
-
-a:focus {
-  color: deeppink;
-  outline: 0.2em dashed deeppink;
-}
-
-label {
-  display: grid;
-}
-
-label:has([type="checkbox"]) {
-  display: flex;
-  align-items: baseline;
-}
 /**************************
 * MARK: Header
 **************************/
@@ -157,8 +149,6 @@ main {
 
   gap: var(--white-space);
   padding: var(--white-space);
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
 }
 
 /**************************

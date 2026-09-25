@@ -7,7 +7,7 @@
     <meta name="color-scheme" content="dark light" />
 
     <title>Digital garden van Casper de Graaff</title>
-    <link rel="stylesheet" href="./css/normal.css" />
+    <link rel="stylesheet" href="assets/style/normal.css" />
 
     <!-- Importeer het webring component, voeg jouw eigen domein toe in data-page -->
     <script
@@ -26,6 +26,25 @@
         </ul>
       </nav>
     </header>
+    <button onclick="openCookies()">Open dialog</button>
+
+    <dialog>
+      <form method="dialog">
+        <p>
+          Omdat deze website github gebruikt moeten deze gegevens verzamelen dit
+          is standaard
+        </p>
+        <p>
+          IP-adres en ongeveer locatie afgeleid hieruit Browser, apparaat,
+          besturingssysteem en technische identificaties Opgevraagde
+          URL's/pagina's, tijdstempels, verwijzende pagina en
+          interactie-/gebruikslogboeken Prestatie-, beveiligings- en
+          diagnostische gegevens Cookies waar van toepassing—vooral als de
+          bezoeker is ingelogd op GitHub of instemt met optionele analysecookies
+        </p>
+        <button>Accepteer cookies</button> <button>Sluit pagine</button>
+      </form>
+    </dialog>
 
     <details>
       <summary>Waar is de <em>default state</em> voor?</summary>
@@ -48,6 +67,14 @@
       <article>
         <h2>Waarom katten goede huidieren zijn</h2>
 
+        <picture>
+          <source
+            srcset="assets/images/Zwarte-kat.png"
+            media="(prefers-color-scheme: dark)"
+          />
+          <img src="assets/images/Oranje-kat.png" alt="de iPhone 17" />
+        </picture>
+
         <!-- bron: https://rubriek.nl/dieren/waarom-katten-de-beste-huisdieren-zijn/ -->
 
         <h3>Katten zijn goed in knuffelen</h3>
@@ -60,7 +87,8 @@
           niet mag opstaan, wanneer er een kat op je schoot ligt. Het is dan dus
           tijd voor een rustig avondje bankhangen.
         </p>
-
+      </article>
+      <article>
         <h3>Katten zijn schoon</h3>
 
         <p>
@@ -73,7 +101,8 @@
           moeten kopen om alle kattenharen van je outfit te verwijderen, voor je
           de deur uitgaat.
         </p>
-
+      </article>
+      <article>
         <h3>Katten kunnen zichzelf vermaken</h3>
 
         <p>
@@ -86,7 +115,8 @@
           als je daarnaast zelf regelmatig wat tijd vrij weet te maken om samen
           te spelen en zo de band te versterken.
         </p>
-
+      </article>
+      <article>
         <h3>Katten kosten minder tijd</h3>
 
         <p>
@@ -98,7 +128,8 @@
           binnen bereik en je kat is voorlopig tevreden. Als katten diarree
           hebben dan kan dat een teken zijn dat ze pijn hebben of ziek zijn.
         </p>
-
+      </article>
+      <article>
         <h3>Alle soorten en maten</h3>
 
         <p>
