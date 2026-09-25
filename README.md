@@ -1,8 +1,14 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
-### sept 22
+### sept 24
 
-Ik heb een plan voor de Human Consent Component ik ga ze in wwn knop of pop up maken
+Ik heb vandaag de pagina een nieuwe img gegeven met light dark nog niet dezelfde groote werk eraan. Ik heb geprobeerd een modeless dialog te maken, maar dat werkt nog niet.
+
+![Digital garden aanpassingem](img-readme/Voorbeeld.png)
+
+### sept 23
+
+Ik heb een plan voor de Human Consent Component ik ga ze in een knop of pop up maken
 
 Wat is een wireflow en wat heb je er aan?
 

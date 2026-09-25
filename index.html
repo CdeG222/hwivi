@@ -8,6 +8,7 @@
 
     <title>Digital garden van Casper de Graaff</title>
     <link rel="stylesheet" href="assets/style/normal.css" />
+    <script src="script.js" defer></script>
 
     <!-- Importeer het webring component, voeg jouw eigen domein toe in data-page -->
     <script
@@ -26,23 +27,30 @@
         </ul>
       </nav>
     </header>
-    <button onclick="openCookies()">Open dialog</button>
-
+    <button onclick="openCookies()">Open cookies</button>
     <dialog>
-      <form method="dialog">
+      <form method="Cookies">
         <p>
-          Omdat deze website github gebruikt moeten deze gegevens verzamelen dit
-          is standaard
+          Omdat deze website github gebruikt moeten we deze gegevens verzamelen
+          voor <em>microsoft</em> dit is standaard.
         </p>
-        <p>
-          IP-adres en ongeveer locatie afgeleid hieruit Browser, apparaat,
-          besturingssysteem en technische identificaties Opgevraagde
-          URL's/pagina's, tijdstempels, verwijzende pagina en
-          interactie-/gebruikslogboeken Prestatie-, beveiligings- en
-          diagnostische gegevens Cookies waar van toepassing—vooral als de
-          bezoeker is ingelogd op GitHub of instemt met optionele analysecookies
-        </p>
-        <button>Accepteer cookies</button> <button>Sluit pagine</button>
+        <ul>
+          <li>
+            Uw <em> IP-adres </em> en ongeveer <em> locatie </em> afgeleid
+            hieruit Browser
+          </li>
+          <li>Welk <em>apparaat</em> u gebruikt</li>
+          <li>Uw <em>besturingssysteem</em> en technische identificaties</li>
+          <li>Uw Opgevraagde URL's/pagina's die u gebruikt</li>
+          <li>
+            <em
+              >Interactie- en gebruiksgegevens Prestatie, beveiligings- en
+              foutgegevens Cookies </em
+            >, vooral als je bent ingelogd bij GitHub of toestemming geeft voor
+            extra analysecookies.
+          </li>
+        </ul>
+        <button>Accepteer cookies</button> <button>Sluit pagina</button>
       </form>
     </dialog>
 
@@ -72,7 +80,7 @@
             srcset="assets/images/Zwarte-kat.png"
             media="(prefers-color-scheme: dark)"
           />
-          <img src="assets/images/Oranje-kat.png" alt="de iPhone 17" />
+          <img src="assets/images/Oranje-kat.png" alt="Kat!" />
         </picture>
 
         <!-- bron: https://rubriek.nl/dieren/waarom-katten-de-beste-huisdieren-zijn/ -->
