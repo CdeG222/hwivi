@@ -2,13 +2,6 @@
 * MARK: Fonts
 **************************/
 
-@font-face {
-  font-family: "Comic Relief";
-  src: url(../fonts/ComicRelief-Regular.woff2);
-  font-weight: 400;
-  font-style: normal;
-}
-
 /**************************
 * MARK: Custom properties
 **************************/
@@ -52,7 +45,6 @@ video {
   height: auto;
 }
 
-
 dialog {
   max-width: 32em;
 
@@ -61,9 +53,9 @@ dialog {
 }
 
 body {
-  font-family:
+  /* font-family:
     Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen,
-    serif;
+    serif; */
   font-weight: normal;
   background: linear-gradient(
     var(--background-primary),
@@ -82,9 +74,6 @@ body {
       "main main"
       "footer .";
   } */
-}
-
-article {
 }
 
 button,
