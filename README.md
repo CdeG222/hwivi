@@ -1,10 +1,28 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### sept 25
+
+Design verbeteren, dat is achteruit gegaan, Ik ga schetsen om het te verbeteren. Maak het leuk voor de gebruiker om te lezen.
+
+Favicon voor icoon en title.
+
+Wat is HTML validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgevoerd?
+
+Dat je HTML code netjes en leesbaar is.
+
+Welke dingen vielen je op?
+
+Dat het ok is.
+
+Welke feedback heb je ontvangen tijdens het gesprek met je docenten?
+
+Heb ik heirboven opgeschreven.
+
 ### sept 24
 
 Ik heb vandaag de pagina een nieuwe img gegeven met light dark nog niet dezelfde groote werk eraan. Ik heb geprobeerd een modeless dialog te maken, maar dat werkt nog niet.
 
-![Digital garden aanpassingem](img-readme/Voorbeeld.png)
+![Digital garden aanpassingen](img-readme/Voorbeeld.png)
 
 ### sept 23
 
@@ -23,6 +41,8 @@ Price comperison, hidden costs en FOMO
 Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
 
 Dat het de gebruiker goed informeerd en hun een keuze geeft.
+
+![Cookie schets](img-readme/cookie-schets.png)
 
 ### sept 21
 

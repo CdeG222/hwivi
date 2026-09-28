@@ -41,11 +41,13 @@ img,
 svg,
 video {
   max-width: 100%;
+  width: 13em;
   display: block;
   height: auto;
 }
 
 dialog {
+  z-index: 10;
   max-width: 32em;
 
   background-color: var(--Cookies-primairy);
@@ -56,26 +58,18 @@ body {
   /* font-family:
     Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen,
     serif; */
-  font-weight: normal;
-  background: linear-gradient(
-    var(--background-primary),
-    var(--background-secondary)
-  );
-
-  /* display: grid;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer"; */
-
-  /* @media (width > 30em) {
-    grid-template-areas:
-      "header header"
-      "main main"
-      "footer .";
-  } */
+  /* font-weight: normal;*/
+  background-image: url("/assets/images/Huis-licht.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (max-width: 768px) {
+    background-size: auto;
+  }
+  @media (max-width: 320x) {
+    background-size: auto;
+  }
 }
-
 button,
 summary {
   cursor: pointer;
@@ -129,6 +123,27 @@ footer {
   }
 }
 
+main dialog {
+  scale: 0;
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition:
+      0.2s allow-discrete,
+      display 0.2s allow-discrete;
+  }
+  transform-origin: top center;
+}
+
+main dialog[open] {
+  scale: 1;
+}
+
+@starting-style {
+  main dialog[open] {
+    scale: 0;
+  }
+}
+
 /**************************
 * MARK: Main
 **************************/
@@ -138,8 +153,61 @@ main {
 
   gap: var(--white-space);
   padding: var(--white-space);
+
+  a {
+    position: absolute;
+
+    img {
+      transform: translate(-2.25rem, 0rem);
+      width: 10rem;
+      &:hover {
+        filter: drop-shadow(0 0 1em white);
+      }
+    }
+  }
+
+  @media (width > 370px) {
+    a {
+      img {
+        transform: translate(-1rem, 0rem);
+        width: 10rem;
+      }
+    }
+  }
+  @media (width > 420px) {
+    a {
+      img {
+        transform: translate(1rem, 0rem);
+        width: 10rem;
+      }
+    }
+  }
+  @media (width > 760px) {
+    a {
+      img {
+        transform: translate(11.5rem, -2rem);
+        width: 10rem;
+      }
+    }
+  }
+  @media (width > 1020px) {
+    a {
+      img {
+        transform: translate(18rem, 0rem);
+        width: 10rem;
+      }
+    }
+  }
+  @media (max-width: 1440px) {
+    a {
+      img {
+        transform: translate(32rem, 5rem);
+        width: 10rem;
+      }
+    }
+  }
 }
 
-/**************************
+/* *************************
 * MARK: Section ...
-**************************/
+************************* */
