@@ -1,5 +1,16 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 27 sept
+
+Bi-weelky-geek
+
+![Bi weelky geek](img-readme/Bi-weekly-geek-2-1.png)
+![Bi weekly geek](img-readme/Bi-weekly-geek-2-2.png)
+
+### sept 26
+
+Veel ingevoed kat knop naar pagina cookie is cookie kat aan schermen aangepast. Maar veel werkt nu niet meer.
+
 ### sept 25
 
 Design verbeteren, dat is achteruit gegaan, Ik ga schetsen om het te verbeteren. Maak het leuk voor de gebruiker om te lezen.
@@ -16,7 +27,7 @@ Dat het ok is.
 
 Welke feedback heb je ontvangen tijdens het gesprek met je docenten?
 
-Heb ik heirboven opgeschreven.
+Heb ik hierboven opgeschreven.
 
 ### sept 24
 
