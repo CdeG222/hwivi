@@ -54,7 +54,7 @@ dialog {
   color: var(--Cookies-secondary);
 }
 
-body {
+.home {
   background-image: linear-gradient(
     var(--background-primary),
     var(--background-secondary)
@@ -74,9 +74,34 @@ body {
     background-size: auto;
   }
 }
+
+.kat {
+  background-image: linear-gradient(
+    var(--background-primary),
+    var(--background-secondary)
+  );
+}
 button,
 summary {
   cursor: pointer;
+}
+
+main > button {
+  appearance: none;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  &:hover {
+    filter: drop-shadow(0 0 1em white);
+  }
+}
+
+body.consent main > button {
+  img {
+    content: url("../images/Gegeten-Cookie.png");
+  }
 }
 
 button,
@@ -86,11 +111,11 @@ textarea {
   font: inherit;
 }
 
-.cookie-button {
-  background-image: src= "assets/images/Cookie.png";
-  background-size: cover;
-  border: none;
-  cursor: pointer;
+button[commandfor="mydialog"] {
+  image: url(assets/images/Cookie.png);
+}
+.consent button[commandfor="mydialog"] {
+  image: url(assets/images/Gegeten-Cookie.png);
 }
 
 h1 {
@@ -133,7 +158,19 @@ footer {
     }
   }
 }
+dialog {
+  /* styling van de dialog*/
 
+  &::backdrop {
+    background-color:
+      var(--Cookies-primairy), var(--Cookies-secondary); /* transparant wit - natuurlijk beter om hier een light-dark() custom property te gebruiken */
+    backdrop-filter: blur(2px); /* px gebruiken voor blur is 👍 :) */
+  }
+}
+
+body.cookieGedaan button[value="Cookie"]::after {
+  content: url("assets/images/Gegeten-Cookie.png");
+}
 main dialog {
   scale: 0;
 
@@ -169,7 +206,7 @@ main {
     position: absolute;
 
     img {
-      transform: translate(-2.25rem, 0rem);
+      transform: translate(4rem, -0.5rem);
       width: 10rem;
       &:hover {
         filter: drop-shadow(0 0 1em white);
@@ -180,7 +217,7 @@ main {
   @media (width > 370px) {
     a {
       img {
-        transform: translate(-1rem, 0rem);
+        transform: translate(6rem, -1rem);
         width: 10rem;
       }
     }
@@ -188,7 +225,7 @@ main {
   @media (width > 420px) {
     a {
       img {
-        transform: translate(1rem, 0rem);
+        transform: translate(8rem, -1rem);
         width: 10rem;
       }
     }
@@ -196,7 +233,7 @@ main {
   @media (width > 760px) {
     a {
       img {
-        transform: translate(11.5rem, -2rem);
+        transform: translate(18rem, -2rem);
         width: 10rem;
       }
     }
@@ -204,19 +241,19 @@ main {
   @media (width > 1020px) {
     a {
       img {
-        transform: translate(18rem, 0rem);
-        width: 10rem;
+        transform: translate(26rem, -3rem);
+        width: 15rem;
       }
     }
   }
-  /* @media (max-width: 1440px) {
+  @media (width > 1430px) {
     a {
       img {
-        transform: translate(32rem, 5rem);
-        width: 10rem;
+        transform: translate(36rem, -3rem);
+        width: 20rem;
       }
     }
-  } */
+  }
 }
 
 /* *************************

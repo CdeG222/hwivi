@@ -7,6 +7,28 @@ Bi-weelky-geek
 ![Bi weelky geek](img-readme/Bi-weekly-geek-2-1.png)
 ![Bi weekly geek](img-readme/Bi-weekly-geek-2-2.png)
 
+screenreader
+
+![Screenreader](img-readme/Screenreader-opdracht.png)
+
+Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?
+
+Dat de UX het belangrijkste is van het vak.
+
+Wat voor type beperkingen hebben invloed op het gebruiken van websites?
+
+zicht, motroiek, mentaal en gehoor.
+
+Noem drie manieren om door een website te navigeren met jouw screenreader.
+
+met control option en pijlen,
+control u
+
+en shift tab.
+
+Ik heb gebprobeerd om de cookie een cookie img te maken maar dat werkte niet.
+en dan de cookie te veranderen van plaatje als je op de accepteer drukt.
+
 ### sept 26
 
 Veel ingevoed kat knop naar pagina cookie is cookie kat aan schermen aangepast. Maar veel werkt nu niet meer.

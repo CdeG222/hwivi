@@ -26,58 +26,49 @@
       }
     </style> -->
   </head>
-
-  
-    <header>
-      <h1>Katten!</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="https://github.com/account/repo">Learning Log</a></li>
-        </ul>
-      </nav>
-    </header>
+  <body class="home">
     <main>
-      <body>
-    <button onclick="openCookies()">Open cookies
-      <img id="Cookie.png" src="assets/images/Cookie.png" />
-    </button>
-    <dialog>
-      <form method="Cookies">
-        <p>
-          Omdat deze website github gebruikt moeten we deze gegevens verzamelen
-          voor <em>microsoft</em> dit is standaard.
-        </p>
-        <ul>
-          <li>
-            Uw <em> IP-adres </em> en ongeveer <em> locatie </em> afgeleid
-            hieruit Browser
-          </li>
-          <li>Welk <em>apparaat</em> u gebruikt</li>
-          <li>Uw <em>besturingssysteem</em> en technische identificaties</li>
-          <li>Uw Opgevraagde URL's/pagina's die u gebruikt</li>
-          <li>
-            <em
-              >Interactie- en gebruiksgegevens Prestatie, beveiligings- en
-              foutgegevens Cookies </em
-            >, vooral als je bent ingelogd bij GitHub of toestemming geeft voor
-            extra analysecookies.
-          </li>
-        </ul>
-        <button id="AccepteerCookies" onclick="AccepteerCookies();">Accepteer cookies</button>
-        <!--
-Source - https://stackoverflow.com/a/8057828
-Posted by amosrivera, modified by community. See post 'Timeline' for change history
-Retrieved 2026-09-27, License - CC BY-SA 4.0
--->
+      <header>
+        <h1>Katten!</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://github.com/account/repo">Learning Log</a></li>
+          </ul>
+        </nav>
+      </header>
 
-<!-- Bron: https://stackoverflow.com/questions/8057802/html-button-close-window -->
+      <button commandfor="mydialog" command="show-modal">
+        <img src="assets/images/Cookie.png" alt="Cookie" />
+      </button>
 
-<button type="button" 
-        onclick="window.open('', '_self', ''); window.close();">Sluit pagina</button>
-
-    </dialog>
-
+      <dialog id="mydialog">
+        <form method="dialog">
+          <p>
+            Omdat deze website github gebruikt moeten we deze gegevens
+            verzamelen voor <em>microsoft</em> dit is standaard.
+          </p>
+          <ul>
+            <li>
+              Uw <em> IP-adres </em> en ongeveer <em> locatie </em> afgeleid
+              hieruit Browser
+            </li>
+            <li>Welk <em>apparaat</em> u gebruikt</li>
+            <li>Uw <em>besturingssysteem</em> en technische identificaties</li>
+            <li>Uw Opgevraagde URL's/pagina's die u gebruikt</li>
+            <li>
+              <em
+                >Interactie- en gebruiksgegevens Prestatie, beveiligings- en
+                foutgegevens Cookies </em
+              >, vooral als je bent ingelogd bij GitHub of toestemming geeft
+              voor extra analysecookies.
+            </li>
+          </ul>
+          <button onclick="setCookie()">Accepteer cookies</button>
+          <button onclick="unsetCookie()">Weiger cookies</button>
+          <button>Sluit pagina</button>
+        </form>
+      </dialog>
       <a href="kat.html" Informatie over de hond>
         <img src="assets/images/Domestic-Cat.png" alt="Kat" />
       </a>
