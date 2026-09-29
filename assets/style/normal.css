@@ -74,7 +74,9 @@ dialog {
     background-size: auto;
   }
 }
-
+.kat-foto {
+  width: 400em;
+}
 .kat {
   background-image: linear-gradient(
     var(--background-primary),
