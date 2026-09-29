@@ -1,5 +1,9 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 29 sept
+
+Het is gelukt om grotendeels de pagina te laten werken en ik denk dat het test klaar is, ik vindt het jammer dat ik niet meer had kunnen bijvoegen. Ik had ook een collage kat willen maken, maar dat moet later.
+
 ### 27 sept
 
 Bi-weelky-geek
