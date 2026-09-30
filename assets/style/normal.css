@@ -10,8 +10,6 @@ html {
   color-scheme: light dark;
 
   --h1-background: light-dark(rgb(255 255 255 / 85%), rgb(0 0 0 / 70%));
-  --primary-color: light-dark(cyan, grey);
-  --secondary-color: light-dark(blue, black);
   --background-secondary: light-dark(orange, rgb(70, 70, 70));
   --background-primary: light-dark(white, black);
   --Cookies-primairy: light-dark(White, black);
@@ -25,8 +23,8 @@ html {
   --terugknop-hover: light-dark(rgb(62, 61, 61), rgb(219, 203, 203));
 
   --font-size-p: 1.25em;
-  --font-size-nav-s: 1.5em;
-  --font-size-nav-m: 1.25em;
+  --font-size-nav-s: 1.25em;
+  --font-size-nav-m: 1.15em;
   --line-height: 1.5;
   --border-width: 0.1em;
   --white-space: 2em;
@@ -68,31 +66,72 @@ body > a:nth-of-type(1) {
 nav {
   position: sticky;
   top: 0;
+}
 
+nav ul {
   justify-self: stretch;
-
-  background-color: var(--template-background-translucent);
   backdrop-filter: blur(3px);
+  align-items: center;
 
   @media (width > 19em) {
     justify-content: center;
     gap: 0.5em;
   }
-}
-
-nav ul {
   padding: 5px;
   display: flex;
   list-style-type: none;
+  
+  border: solid 1px;
+  border-color: var(--background-primary);
+
   li {
     padding: 5px;
     border: dashed 1px;
     font-size: var(--font-size-nav-s);
+    background: var(--background-secondary);
   }
-  li {
-    @media (width > 400px) {
+  @media (width > 400px) {
+    li {
       font-size: var(--font-size-nav-m);
     }
+  }
+  a {
+    writing-mode: vertical-lr;
+
+    @media (width > 550px) {
+      writing-mode: horizontal-tb;
+    }
+  }
+}
+/* Terug knop styling */
+.terug-knop {
+  position: sticky;
+  top: 11em;
+
+  text-align: center;
+  text-decoration: none;
+  color: var(--terugknop-text);
+  background-color: var(--terugknop-background);
+  border: solid 1px;
+  border-color: var(--knop-border);
+  border-radius: 10px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  /* margin-top: 10em; */
+
+  &::before {
+    content: "←";
+  }
+  &:hover {
+    background-color: var(--terugknop-hover);
+  }
+  @media (width > 550px) {
+    position: sticky;
+    top: 3em;
   }
 }
 *,
@@ -176,32 +215,7 @@ summary {
   padding-left: 6px;
   padding-right: 6px;
 }
-/* Terug knop styling */
-.terug-knop {
-  position: sticky;
-  top: 4em;
-  text-align: center;
-  text-decoration: none;
-  color: var(--terugknop-text);
-  background-color: var(--terugknop-background);
-  border: solid 1px;
-  border-color: var(--knop-border);
-  border-radius: 10px;
 
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 12px;
-  padding-right: 12px;
-
-  /* margin-top: 10em; */
-
-  &::before {
-    content: "←";
-  }
-  &:hover {
-    background-color: var(--terugknop-hover);
-  }
-}
 /* Code voor de cookie plaatje aanpassen. */
 main > button {
   appearance: none;
