@@ -100,7 +100,7 @@ main > button {
   }
 }
 
-body.consent main > button {
+body.cookieGedaan main > button {
   img {
     content: url("../images/Gegeten-Cookie.png");
   }
@@ -208,7 +208,7 @@ main {
     position: absolute;
 
     img {
-      transform: translate(4rem, -0.5rem);
+      transform: translate(35%, -10%);
       width: 10rem;
       &:hover {
         filter: drop-shadow(0 0 1em white);
@@ -219,7 +219,7 @@ main {
   @media (width > 370px) {
     a {
       img {
-        transform: translate(6rem, -1rem);
+        transform: translate(55%, -10%);
         width: 10rem;
       }
     }
@@ -227,15 +227,25 @@ main {
   @media (width > 420px) {
     a {
       img {
-        transform: translate(8rem, -1rem);
+        transform: translate(75%, -15%);
         width: 10rem;
       }
     }
   }
+
+  @media (width > 570px) {
+    a {
+      img {
+        transform: translate(120%, -25%);
+        width: 10rem;
+      }
+    }
+  }
+
   @media (width > 760px) {
     a {
       img {
-        transform: translate(18rem, -2rem);
+        transform: translate(180%, -35%);
         width: 10rem;
       }
     }
@@ -243,7 +253,7 @@ main {
   @media (width > 1020px) {
     a {
       img {
-        transform: translate(26rem, -3rem);
+        transform: translate(160%, -35%);
         width: 15rem;
       }
     }
@@ -251,7 +261,7 @@ main {
   @media (width > 1430px) {
     a {
       img {
-        transform: translate(36rem, -3rem);
+        transform: translate(170%, -25%);
         width: 20rem;
       }
     }

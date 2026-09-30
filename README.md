@@ -1,4 +1,8 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
+### 30sept
+
+Screenreader gaat relatief goed makkelijk te navigeren.
+
 
 ### 29 sept
 
