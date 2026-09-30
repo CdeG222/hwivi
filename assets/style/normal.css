@@ -21,7 +21,10 @@ html {
   --terugknop-background: light-dark(black, white);
   --terugknop-text: light-dark(white, black);
   --terugknop-hover: light-dark(rgb(62, 61, 61), rgb(219, 203, 203));
-
+  --contrast-light-primairy: light-dark(yellow, black);
+  --contrast-light-secondary: light-dark(black, yellow);
+  --contrast-light-3: light-dark(yellow, black);
+  --contrast-light-text: light-dark(black, yellow);
   --font-size-p: 1.25em;
   --font-size-nav-s: 1.25em;
   --font-size-nav-m: 1.15em;
@@ -71,7 +74,6 @@ nav {
 nav ul {
   justify-self: stretch;
   backdrop-filter: blur(3px);
-  align-items: center;
 
   @media (width > 19em) {
     justify-content: center;
@@ -80,13 +82,12 @@ nav ul {
   padding: 5px;
   display: flex;
   list-style-type: none;
-  
+
   border: solid 1px;
   border-color: var(--background-primary);
 
   li {
     padding: 5px;
-    border: dashed 1px;
     font-size: var(--font-size-nav-s);
     background: var(--background-secondary);
   }
@@ -95,11 +96,20 @@ nav ul {
       font-size: var(--font-size-nav-m);
     }
   }
+  @media (prefers-contrast: more) {
+    li {
+      background-color: var(--contrast-light-secondary);
+    }
+  }
   a {
     writing-mode: vertical-lr;
-
-    @media (width > 550px) {
-      writing-mode: horizontal-tb;
+  }
+  @media (width > 550px) {
+    writing-mode: horizontal-tb;
+  }
+  @media (prefers-contrast: more) {
+    a {
+      color: var(--contrast-light-3);
     }
   }
 }
@@ -112,6 +122,7 @@ nav ul {
   text-decoration: none;
   color: var(--terugknop-text);
   background-color: var(--terugknop-background);
+
   border: solid 1px;
   border-color: var(--knop-border);
   border-radius: 10px;
@@ -131,9 +142,14 @@ nav ul {
   }
   @media (width > 550px) {
     position: sticky;
-    top: 3em;
+    top: 5.2em;
+  }
+  @media (width > 1000px) {
+    position: sticky;
+    top: 2em;
   }
 }
+
 *,
 *::after,
 *::before {
@@ -189,6 +205,13 @@ dialog {
     var(--background-secondary)
   );
 }
+@media (prefers-contrast: more) {
+  .kat {
+    background-color: var(--contrast-light-primairy);
+    background-image: none;
+  }
+}
+
 button,
 summary {
   cursor: pointer;
@@ -267,6 +290,9 @@ h4 {
 
 p {
   font-size: var(--font-size-p);
+  @media (prefers-contrast: more) {
+    color: var(--contrast-light-text);
+  }
 }
 /**************************
 * MARK: Header

@@ -31,9 +31,11 @@ WCAG lijst
   Ik verplaats nu de a inplaats van img.
 
 - Ik heb nog geen skip link voor mijn pagina
-
+  Ik heb een skip link gemaakt en gestijld
 
 - Ik heb nog geen high contrast mode voor mijn pagina
+  Ik heb zelf een high contrast mode aangemaakt
+  ![Contrast](img-readme/Contrast-example.png)
 
 - H1 op op pagina 1 had nog geen goed contrast
   Ik heb de H1 op pagina 1 een background gegeven.
@@ -41,15 +43,16 @@ WCAG lijst
 - Screenreaders kunnen de afbeeldingen nog niet lezen.
 
 Check-out
+
 - Waar staat WCAG en A11y voor?
 
-- Wat vind je lastiger, je laptop/websites alleen met een toetsenbord     bedienen of met een screenreader? Waarom? Waar moet je nog mee oefenen?
+- Wat vind je lastiger, je laptop/websites alleen met een toetsenbord bedienen of met een screenreader? Waarom? Waar moet je nog mee oefenen?
 
 Met de screenreader, want die doet moeilijker met bewegen an header naar main bijvoorbeeld.
 
 - Met welke beperking rekening houden vind je het meest lastig?
-Vind je dat je beperkt wordt in wat je kunt ontwerpen?
-Of heb je al manieren gevonden om vanuit een solide basis  - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
+  Vind je dat je beperkt wordt in wat je kunt ontwerpen?
+  Of heb je al manieren gevonden om vanuit een solide basis - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
 
 Ik vindt dat designen voor mensen met beperkingen belangrijk is, maar dat het je wel limiteerd als designer.
 
