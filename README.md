@@ -1,8 +1,56 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
+
 ### 30sept
 
 Screenreader gaat relatief goed makkelijk te navigeren.
 
+WCAG lijst
+
+- HTML had errors.
+  Ik heb de onnodige code wegehaalt en namen verduidelijkt.
+
+- Titel van beide pagina's waren hetzelfde
+  Ik heb beide pagina's een andere titel gegeven.
+
+- lang was niet Nl
+  Ik heb lang NL gemaakt
+
+- Terug was een button in een a
+  ik heb het een a gemaakt en gestijlt om op een knop te lijken om terug te kunnen naar home.
+
+- Buttons moeten groter voor mobiel
+  Ik heb verschillende knoppen groter gemaakt zodat ze duidelijker zijn.
+
+- Heading van pagina 2 had geen H1
+  Ik heb pagina 2 een H1 gegeven.
+
+- De kat en cookies afbeeldingen zijn decoratief, maar hebben een alt.
+  Ik heb de alt weggehaald.
+
+- Focus deed gek met de kat, omdat de a en img op een ander plek stonden.
+  Ik verplaats nu de a inplaats van img.
+
+- Ik heb nog geen skip link voor mijn pagina
+
+- Ik heb nog geen high contrast mode voor mijn pagina
+
+- H1 op op pagina 1 had nog geen goed contrast
+  Ik heb de H1 op pagina 1 een background gegeven.
+
+- Screenreaders kunnen de afbeeldingen nog niet lezen.
+
+Check-out
+- Waar staat WCAG en A11y voor?
+
+- Wat vind je lastiger, je laptop/websites alleen met een toetsenbord     bedienen of met een screenreader? Waarom? Waar moet je nog mee oefenen?
+
+Met de screenreader, want die doet moeilijker met bewegen an header naar main bijvoorbeeld.
+
+- Met welke beperking rekening houden vind je het meest lastig?
+Vind je dat je beperkt wordt in wat je kunt ontwerpen?
+Of heb je al manieren gevonden om vanuit een solide basis  - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
+
+Ik vindt dat designen voor mensen met beperkingen belangrijk is, maar dat het je wel limiteerd als designer.
 
 ### 29 sept
 
