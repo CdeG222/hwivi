@@ -24,7 +24,9 @@ html {
   --terugknop-text: light-dark(white, black);
   --terugknop-hover: light-dark(rgb(62, 61, 61), rgb(219, 203, 203));
 
-  --font-size-p: 1.1em;
+  --font-size-p: 1.25em;
+  --font-size-nav-s: 1.5em;
+  --font-size-nav-m: 1.25em;
   --line-height: 1.5;
   --border-width: 0.1em;
   --white-space: 2em;
@@ -40,7 +42,59 @@ html {
 /**************************
 * MARK: Algemene Styling
 **************************/
+html {
+  scroll-padding-top: 6em;
 
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+body > a:nth-of-type(1) {
+  position: fixed;
+  left: -9999em;
+
+  z-index: 1;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: yellow;
+  color: mediumblue;
+  outline-color: currentcolor;
+
+  &:focus {
+    left: 0;
+  }
+}
+
+nav {
+  position: sticky;
+  top: 0;
+
+  justify-self: stretch;
+
+  background-color: var(--template-background-translucent);
+  backdrop-filter: blur(3px);
+
+  @media (width > 19em) {
+    justify-content: center;
+    gap: 0.5em;
+  }
+}
+
+nav ul {
+  padding: 5px;
+  display: flex;
+  list-style-type: none;
+  li {
+    padding: 5px;
+    border: dashed 1px;
+    font-size: var(--font-size-nav-s);
+  }
+  li {
+    @media (width > 400px) {
+      font-size: var(--font-size-nav-m);
+    }
+  }
+}
 *,
 *::after,
 *::before {
@@ -100,7 +154,7 @@ button,
 summary {
   cursor: pointer;
 }
-
+/* Dit is de style voor cookie knoppen. */
 .weiger-knop,
 .accepteer-knop {
   background-color: var(--knop-background);
@@ -114,7 +168,7 @@ summary {
     background-color: var(--knop-hover);
   }
 }
-
+/* Invidu styling voor weiger knop */
 .weiger-knop {
   /* padding: 1px; */
   padding-top: 1px;
@@ -122,8 +176,10 @@ summary {
   padding-left: 6px;
   padding-right: 6px;
 }
-
+/* Terug knop styling */
 .terug-knop {
+  position: sticky;
+  top: 4em;
   text-align: center;
   text-decoration: none;
   color: var(--terugknop-text);
@@ -137,7 +193,7 @@ summary {
   padding-left: 12px;
   padding-right: 12px;
 
-  margin-top: 10em;
+  /* margin-top: 10em; */
 
   &::before {
     content: "←";
@@ -146,7 +202,7 @@ summary {
     background-color: var(--terugknop-hover);
   }
 }
-
+/* Code voor de cookie plaatje aanpassen. */
 main > button {
   appearance: none;
   border: none;
@@ -172,13 +228,7 @@ textarea {
   font: inherit;
 }
 
-button[commandfor="mydialog"] {
-  background-image: url(assets/images/Cookie.png);
-}
-.consent button[commandfor="mydialog"] {
-  background-image: url(assets/images/Gegeten-Cookie.png);
-}
-
+/* Code voor de background in home voor H1 */
 .home-h1 {
   background: var(--h1-background);
   width: max-content;
@@ -215,7 +265,7 @@ header {
 /**************************
 * MARK: Footer
 **************************/
-
+/* Code om footer we te halen */
 footer {
   grid-area: footer;
   nav {
@@ -231,6 +281,8 @@ footer {
     }
   }
 }
+
+/* Dialog code voor animatie en kleur */
 dialog {
   /* styling van de dialog*/
 
@@ -268,7 +320,7 @@ main dialog[open] {
 /**************************
 * MARK: Main
 **************************/
-
+/* Code voor de main styling */
 main {
   line-height: var(--line-height);
   grid-area: main;
@@ -276,6 +328,7 @@ main {
   gap: var(--white-space);
   padding: var(--white-space);
 
+  /* kat positie met enorm veel @media */
   .kat-link {
     position: absolute;
     transform: translate(35%, 85%);

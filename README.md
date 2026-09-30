@@ -32,6 +32,7 @@ WCAG lijst
 
 - Ik heb nog geen skip link voor mijn pagina
 
+
 - Ik heb nog geen high contrast mode voor mijn pagina
 
 - H1 op op pagina 1 had nog geen goed contrast
