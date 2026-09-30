@@ -9,14 +9,22 @@
 html {
   color-scheme: light dark;
 
+  --h1-background: light-dark(rgb(255 255 255 / 85%), rgb(0 0 0 / 70%));
   --primary-color: light-dark(cyan, grey);
   --secondary-color: light-dark(blue, black);
   --background-secondary: light-dark(orange, rgb(70, 70, 70));
   --background-primary: light-dark(white, black);
   --Cookies-primairy: light-dark(White, black);
   --Cookies-secondary: light-dark(black, white);
-  --border-width: 0.1em;
+  --knop-text: light-dark(black, white);
+  --knop-background: light-dark(white, grey);
+  --knop-border: light-dark(black, grey);
+  --knop-hover: light-dark(#a8a6a6, #a8a6a6);
+  --terugknop-background: light-dark(black, white);
+  --terugknop-text: light-dark(white, black);
+  --terugknop-hover: light-dark(rgb(62, 61, 61), rgb(219, 203, 203));
 
+  --border-width: 0.1em;
   --white-space: 2em;
 
   --step-0: clamp(1rem, 0.9167rem + 0.3704vw, 1.25rem);
@@ -63,7 +71,10 @@ dialog {
     Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen,
     serif; */
   /* font-weight: normal;*/
-  background-image: url("/assets/images/Huis-licht.png");
+  background-image: light-dark(
+    url("/assets/images/Huis-licht.png"),
+    url("/assets/images/Huis-donker.png")
+  );
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,6 +97,52 @@ dialog {
 button,
 summary {
   cursor: pointer;
+}
+
+.weiger-knop,
+.accepteer-knop {
+  background-color: var(--knop-background);
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--knop-text);
+  border: solid 1px;
+  border-color: var(--knop-border);
+  &:hover {
+    background-color: var(--knop-hover);
+  }
+}
+
+.weiger-knop {
+  /* padding: 1px; */
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.terug-knop {
+  text-align: center;
+  text-decoration: none;
+  color: var(--terugknop-text);
+  background-color: var(--terugknop-background);
+  border: solid 1px;
+  border-color: var(--knop-border);
+  border-radius: 10px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  margin-top: 10em;
+
+  &::before {
+    content: "←";
+  }
+  &:hover {
+    background-color: var(--terugknop-hover);
+  }
 }
 
 main > button {
@@ -114,13 +171,15 @@ textarea {
 }
 
 button[commandfor="mydialog"] {
-  image: url(assets/images/Cookie.png);
+  background-image: url(assets/images/Cookie.png);
 }
 .consent button[commandfor="mydialog"] {
-  image: url(assets/images/Gegeten-Cookie.png);
+  background-image: url(assets/images/Gegeten-Cookie.png);
 }
 
 h1 {
+  background: var(--h1-background);
+  width: max-content;
   font-size: var(--step-4);
 }
 h2 {
@@ -204,66 +263,51 @@ main {
   gap: var(--white-space);
   padding: var(--white-space);
 
-  a {
+  .kat-link {
     position: absolute;
-
-    img {
-      transform: translate(35%, -10%);
-      width: 10rem;
-      &:hover {
-        filter: drop-shadow(0 0 1em white);
-      }
+    transform: translate(35%, 85%);
+    width: 10rem;
+    &:hover {
+      filter: drop-shadow(0 0 1em white);
     }
   }
 
   @media (width > 370px) {
-    a {
-      img {
-        transform: translate(55%, -10%);
-        width: 10rem;
-      }
+    .kat-link {
+      transform: translate(55%, 85%);
+      width: 10rem;
     }
   }
   @media (width > 420px) {
-    a {
-      img {
-        transform: translate(75%, -15%);
-        width: 10rem;
-      }
+    .kat-link {
+      transform: translate(65%, 85%);
+      width: 10rem;
     }
   }
 
   @media (width > 570px) {
-    a {
-      img {
-        transform: translate(120%, -25%);
-        width: 10rem;
-      }
+    .kat-link {
+      transform: translate(120%, 55%);
+      width: 10rem;
     }
   }
 
   @media (width > 760px) {
-    a {
-      img {
-        transform: translate(180%, -35%);
-        width: 10rem;
-      }
+    .kat-link {
+      transform: translate(180%, 55%);
+      width: 10rem;
     }
   }
   @media (width > 1020px) {
-    a {
-      img {
-        transform: translate(160%, -35%);
-        width: 15rem;
-      }
+    .kat-link {
+      transform: translate(160%, 55%);
+      width: 15rem;
     }
   }
   @media (width > 1430px) {
-    a {
-      img {
-        transform: translate(170%, -25%);
-        width: 20rem;
-      }
+    .kat-link {
+      transform: translate(90%, 55%);
+      width: 20rem;
     }
   }
 }
