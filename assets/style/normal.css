@@ -24,6 +24,8 @@ html {
   --terugknop-text: light-dark(white, black);
   --terugknop-hover: light-dark(rgb(62, 61, 61), rgb(219, 203, 203));
 
+  --font-size-p: 1.1em;
+  --line-height: 1.5;
   --border-width: 0.1em;
   --white-space: 2em;
 
@@ -177,9 +179,16 @@ button[commandfor="mydialog"] {
   background-image: url(assets/images/Gegeten-Cookie.png);
 }
 
-h1 {
+.home-h1 {
   background: var(--h1-background);
   width: max-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: var(--step-4);
+}
+h1 {
   font-size: var(--step-4);
 }
 h2 {
@@ -192,6 +201,9 @@ h4 {
   font-size: var(--step-1);
 }
 
+p {
+  font-size: var(--font-size-p);
+}
 /**************************
 * MARK: Header
 **************************/
@@ -258,6 +270,7 @@ main dialog[open] {
 **************************/
 
 main {
+  line-height: var(--line-height);
   grid-area: main;
 
   gap: var(--white-space);
@@ -306,7 +319,7 @@ main {
   }
   @media (width > 1430px) {
     .kat-link {
-      transform: translate(90%, 55%);
+      transform: translate(160%, 55%);
       width: 20rem;
     }
   }
