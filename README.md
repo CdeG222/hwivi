@@ -1,5 +1,11 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 31 sept
+
+- Screenreaders kunnen de afbeeldingen nog niet lezen.
+
+Dit is volgens mij gefixt. De knoppen hebben een descriptie waar de screenreader het kan lezen.
+
 ### 30sept
 
 Screenreader gaat relatief goed makkelijk te navigeren.
@@ -42,7 +48,7 @@ WCAG lijst
 
 - Screenreaders kunnen de afbeeldingen nog niet lezen.
 
-Check-out
+## Check-out
 
 - Waar staat WCAG en A11y voor?
 
