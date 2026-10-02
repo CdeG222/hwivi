@@ -9,9 +9,9 @@ Ik heb een paar datums verkeerd hieronder in mijn read-me en ik weet niet welke 
 met tab speel hover effect
 verduidelijk de knop
 
-typografie aandacht aan bested voor pagina 2
+typografie aandacht aan besteededen voor pagina 2
 
-Kat knop position relative/ absolute
+Kat knop position relative/ absolute inplaats van @media
 
 ## retrospect
 
