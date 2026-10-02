@@ -393,7 +393,7 @@ main {
 
   @media (width > 570px) {
     .kat-link {
-      transform: translate(120%, 55%);
+      transform: translate(120%, 75%);
       width: 10rem;
     }
   }
