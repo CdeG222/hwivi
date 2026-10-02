@@ -1,12 +1,28 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
-### 31 sept
+### 2 okt
+
+Ik heb een paar datums verkeerd hieronder in mijn read-me en ik weet niet welke dus datum informatie kan incorrect zijn, sorry hiervoor.
+
+## retrospect
+
+![Sprint2-retro](img-readme/Tekeningen-sprint2.jpeg)
+
+![Sprint2-retro](img-readme/Daltekening-sprint2.jpeg)
+
+![Sprint2-retro](img-readme/Schets-sprint2-versie1.jpeg)
+![Sprint2-retro](img-readme/Schets-sprint2-final.jpeg)
+Eindresultaat van metafor de dingen die in mijn daltekening staan zitten in mijn spinnen web met het hoog laag niveau.
+
+Ik bleef veel vast zitten deze week daarom het spinnenweb.
+
+### 1 okt
 
 - Screenreaders kunnen de afbeeldingen nog niet lezen.
 
 Dit is volgens mij gefixt. De knoppen hebben een descriptie waar de screenreader het kan lezen.
 
-### 30sept
+### 31 sept
 
 Screenreader gaat relatief goed makkelijk te navigeren.
 
@@ -97,7 +113,7 @@ en dan de cookie te veranderen van plaatje als je op de accepteer drukt.
 
 ### sept 26
 
-Veel ingevoed kat knop naar pagina cookie is cookie kat aan schermen aangepast. Maar veel werkt nu niet meer.
+Veel ingevoegt kat knop naar pagina cookie is cookie kat aan schermen aangepast. Maar veel werkt nu niet meer.
 
 ### sept 25
 

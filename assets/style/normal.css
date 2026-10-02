@@ -252,7 +252,7 @@ main > button {
   }
 }
 
-body.cookieGedaan main > button {
+body.consent main > button {
   img {
     content: url("../images/Gegeten-Cookie.png");
   }

@@ -1,3 +1,3 @@
-function setCookie() {
-  document.body.classList.add("cookieGedaan");
-}
+// function setCookie() {
+//   document.body.classList.add("cookieGedaan");
+// }
