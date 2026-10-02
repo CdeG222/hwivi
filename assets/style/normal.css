@@ -371,7 +371,7 @@ main {
   /* kat positie met enorm veel @media */
   .kat-link {
     position: absolute;
-    transform: translate(35%, 85%);
+    transform: translate(30%, 95%);
     width: 10rem;
     &:hover {
       filter: drop-shadow(0 0 1em white);
@@ -380,13 +380,13 @@ main {
 
   @media (width > 370px) {
     .kat-link {
-      transform: translate(55%, 85%);
+      transform: translate(55%, 90%);
       width: 10rem;
     }
   }
   @media (width > 420px) {
     .kat-link {
-      transform: translate(65%, 85%);
+      transform: translate(65%, 90%);
       width: 10rem;
     }
   }
@@ -400,20 +400,20 @@ main {
 
   @media (width > 760px) {
     .kat-link {
-      transform: translate(180%, 55%);
+      transform: translate(175%, 65%);
       width: 10rem;
     }
   }
   @media (width > 1020px) {
     .kat-link {
-      transform: translate(160%, 55%);
+      transform: translate(160%, 65%);
       width: 15rem;
     }
   }
   @media (width > 1430px) {
     .kat-link {
-      transform: translate(160%, 55%);
-      width: 20rem;
+      transform: translate(95%, 140%);
+      width: 40rem;
     }
   }
 }
