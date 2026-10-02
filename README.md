@@ -4,6 +4,15 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 Ik heb een paar datums verkeerd hieronder in mijn read-me en ik weet niet welke dus datum informatie kan incorrect zijn, sorry hiervoor.
 
+## Feedback:
+
+met tab speel hover effect
+verduidelijk de knop
+
+typografie aandacht aan bested voor pagina 2
+
+Kat knop position relative/ absolute
+
 ## retrospect
 
 ![Sprint2-retro](img-readme/Tekeningen-sprint2.jpeg)
