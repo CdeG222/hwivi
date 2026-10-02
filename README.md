@@ -14,7 +14,7 @@ Ik heb een paar datums verkeerd hieronder in mijn read-me en ik weet niet welke 
 ![Sprint2-retro](img-readme/Schets-sprint2-final.jpeg)
 Eindresultaat van metafor de dingen die in mijn daltekening staan zitten in mijn spinnen web met het hoog laag niveau.
 
-Ik bleef veel vast zitten deze week daarom het spinnenweb.
+Ik bleef veel vast zitten deze week daarom het spinnenweb en het is een woord grap met "webby".
 
 ### 1 okt
 
