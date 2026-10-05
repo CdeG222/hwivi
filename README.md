@@ -5,6 +5,81 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 ![Sprint3-schetsen typografie](img-readme/8:10_schetsen.jpeg)
 ![Sprint3-schetsen typografie](img-readme/2:10_schetsen.jpeg)
 
+## feedback
+
+Wat wil je bij de kijker bereiken met je vormgeving?
+
+-Ik wil laten zien hoe het lied voelt om te luisteren.
+
+Hoe voegt jouw opzet iets toe aan de tekst?
+
+Het laat zien heo het lied voelt in tekst vorm.
+
+Wat is een volgende stap: welke schets vind je het meest geschikt om digitaal uit te werken?
+
+De laatste vorm
+
+Hoe zou je dit kunnen aanpakken in code? (vraag hulp wanneer je het niet zeker weet)
+
+Line-height
+letter-spacing
+word-spacing
+
+# checkout
+
+- Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben)
+
+Ik heb geen idee, ik zoek het op.
+
+Kerning
+Kerning is letterspacing tussen 2 letters.
+
+Tracking
+Tracking is letterspacing in een woord. de afstand tussen alle symbolen in een font.
+
+Leading
+Leading is lineheight, dit betekend dat de afstand tussen de regels groter worden.
+
+Flush-left
+text naar de linkerzijde van het scherm
+
+Flush-right
+text naar de rechterzijde van het scherm
+
+Centered
+Gecentreerde text
+
+Justified
+Text is naar links, met letter-spacing en word spacing aangepast
+
+Indent
+beschrijft een leeg plaats voor of na een stuk tekst.
+
+Outdent
+
+Modular scale
+tekst groote aanpassen aan scherm grote.
+
+Movable type
+Beweegbare componenten
+
+Focus point
+
+Vijf soorten contrast
+
+Spatial tension
+Hoe groot een tekst deel is?
+
+Degene die leeg zijn kon ik niet vinden, sorry.
+
+- Wat is jouw ideale regellengte (measure)? Leg uit waarom.
+
+8px, omdat het fijn is om te lezen en je kan het handig aanpasen.
+
+- Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?
+
+spacing, want dan kan ik ook het fijn voor de gebruiker om te lezen.
+
 ### 2 okt
 
 Ik heb een paar datums verkeerd hieronder in mijn read-me en ik weet niet welke dus datum informatie kan incorrect zijn, sorry hiervoor.
