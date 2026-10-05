@@ -1,5 +1,10 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 5 okt
+
+![Sprint3-schetsen typografie](img-readme/8:10_schetsen.jpeg)
+![Sprint3-schetsen typografie](img-readme/2:10_schetsen.jpeg)
+
 ### 2 okt
 
 Ik heb een paar datums verkeerd hieronder in mijn read-me en ik weet niet welke dus datum informatie kan incorrect zijn, sorry hiervoor.
