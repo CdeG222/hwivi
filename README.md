@@ -6,6 +6,19 @@ Ik heb met hulp van maarten mijn visie kunnen uitvoeren voor de tekst. Ik heb oo
 
 Het is gelukt om de titel wavy te maken, maar toen ik het te probeerde animeren. was de titel naast de tekst.
 
+Met hulp van maarten is de wavy animatie gelukt!
+![Sprint3-code_typografie](img-readme/wavy-animatie.png)
+
+## checkout
+
+- Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
+
+Het creert logica in tekst het zorgt ervoor dat tekst op een logische plaats te vinden is.
+
+- Noem drie manieren om chaos in je ontwerp te voorkomen.
+
+- Hoeveel gekkigheid moet er in je werk zitten?
+
 ### 6 okt
 
 Ik heb geprobeerd om tekst over elkaar te zetten door tekst kleiner en groter te maken en de text met een div over de ander tekst te zetten. Ik heb line height geprobeerd wat niet werkte ik heb measure geprobeerd wat niet werkte.
