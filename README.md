@@ -1,5 +1,11 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 7 okt
+
+Ik heb met hulp van maarten mijn visie kunnen uitvoeren voor de tekst. Ik heb ook geprobeerd om de tekst te animeren door het wavy te maken met deze bron: https://www.geeksforgeeks.org/web-templates/how-to-make-a-vertical-wavy-text-line-using-html-and-css/
+
+Het is gelukt om de titel wavy te maken, maar toen ik het te probeerde animeren. was de titel naast de tekst.
+
 ### 6 okt
 
 Ik heb geprobeerd om tekst over elkaar te zetten door tekst kleiner en groter te maken en de text met een div over de ander tekst te zetten. Ik heb line height geprobeerd wat niet werkte ik heb measure geprobeerd wat niet werkte.
@@ -9,7 +15,6 @@ Ik weet niet wat ik nog kan doen
 
 Het is wel gelukt om een deel van mijn schets uit te werken ik weet niet hoe ik het andere kan uitwerken :(
 
-  
 ![Sprint3-code_typografie](img-readme/Code_letithappen2.png)
 
 ### 5 okt
