@@ -13,11 +13,15 @@ Met hulp van maarten is de wavy animatie gelukt!
 
 - Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
 
-Het creert logica in tekst het zorgt ervoor dat tekst op een logische plaats te vinden is.
+Het creërt logica in tekst het zorgt ervoor dat tekst op een logische plaats te vinden is.
 
 - Noem drie manieren om chaos in je ontwerp te voorkomen.
 
+Hierarchie, grid en een maximaale breedte.
+
 - Hoeveel gekkigheid moet er in je werk zitten?
+
+Ligt eraan wat je wilt ontwerpen. Alles mag.
 
 ### 6 okt
 
