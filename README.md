@@ -1,5 +1,17 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 6 okt
+
+Ik heb geprobeerd om tekst over elkaar te zetten door tekst kleiner en groter te maken en de text met een div over de ander tekst te zetten. Ik heb line height geprobeerd wat niet werkte ik heb measure geprobeerd wat niet werkte.
+
+Ik weet niet wat ik nog kan doen
+![Sprint3-code_typografie](img-readme/Code_letithappen.png)
+
+Het is wel gelukt om een deel van mijn schets uit te werken ik weet niet hoe ik het andere kan uitwerken :(
+
+  
+![Sprint3-code_typografie](img-readme/Code_letithappen2.png)
+
 ### 5 okt
 
 ![Sprint3-schetsen typografie](img-readme/8:10_schetsen.jpeg)
