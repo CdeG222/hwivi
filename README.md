@@ -1,5 +1,25 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+## 18 okt
+
+Alles is stuk...
+Ik weet niet wat ik moet doen..
+waarom is de abckground img weg. waarom is op pagina 2 alles de verkeerde kant
+
+Ik heb pagina 2 gefixt. Ik weet niet waarom de eerste stuk is ik ga morgen hulp vragen.
+
+### 17 okt
+
+Ik ben weer ziek ik ben 2 dagen niet ziek geweest, maar ik ga proberen om zoveel mogelijk te doen.
+
+### 16 okt
+
+animatie maken gestart.
+
+### 15 okt
+
+Feedback verwerkt.
+
 ### 7 okt
 
 Ik heb met hulp van maarten mijn visie kunnen uitvoeren voor de tekst. Ik heb ook geprobeerd om de tekst te animeren door het wavy te maken met deze bron: https://www.geeksforgeeks.org/web-templates/how-to-make-a-vertical-wavy-text-line-using-html-and-css/
