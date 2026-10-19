@@ -66,52 +66,55 @@ body > a:nth-of-type(1) {
   }
 }
 
+/**************************
+* MARK: Nav
+**************************/
+
 nav {
   grid-area: nav;
   position: sticky;
   top: 0;
+}
+nav ul {
+  justify-self: stretch;
+  backdrop-filter: blur(3px);
 
-  nav ul {
-    justify-self: stretch;
-    backdrop-filter: blur(3px);
+  @media (width > 19em) {
+    justify-content: center;
+    gap: 0.5em;
+  }
+  padding: 5px;
+  display: flex;
+  list-style-type: none;
 
-    @media (width > 19em) {
-      justify-content: center;
-      gap: 0.5em;
-    }
+  border: solid 1px;
+  border-color: var(--background-primary);
+
+  li {
     padding: 5px;
-    display: flex;
-    list-style-type: none;
-
-    border: solid 1px;
-    border-color: var(--background-primary);
-
+    font-size: var(--font-size-nav-s);
+    background: var(--background-secondary);
+  }
+  @media (width > 400px) {
     li {
-      padding: 5px;
-      font-size: var(--font-size-nav-s);
-      background: var(--background-secondary);
+      font-size: var(--font-size-nav-m);
     }
-    @media (width > 400px) {
-      li {
-        font-size: var(--font-size-nav-m);
-      }
+  }
+  @media (prefers-contrast: more) {
+    li {
+      background-color: var(--contrast-light-secondary);
     }
-    @media (prefers-contrast: more) {
-      li {
-        background-color: var(--contrast-light-secondary);
-      }
-    }
-    a {
-      writing-mode: vertical-lr;
+  }
+  a {
+    writing-mode: vertical-lr;
 
-      @media (width > 550px) {
-        writing-mode: horizontal-tb;
-      }
+    @media (width > 550px) {
+      writing-mode: horizontal-tb;
     }
-    @media (prefers-contrast: more) {
-      a {
-        color: var(--contrast-light-3);
-      }
+  }
+  @media (prefers-contrast: more) {
+    a {
+      color: var(--contrast-light-3);
     }
   }
 }
@@ -173,6 +176,7 @@ dialog {
 }
 
 /* Body scherm 2 */
+
 .kat {
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
