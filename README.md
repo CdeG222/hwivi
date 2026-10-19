@@ -2,7 +2,16 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 ### 19 okt
 
+Ik heb tot nu toe alle deepdive gedaan!
+![Deepdive](img-readme/deepdive1)
+![Deepdive](img-readme/deepdive2)
+![Deepdive](img-readme/deepdive3)
+![Deepdive](img-readme/deepdive4)
+![Deepdive](img-readme/deepdive5)
+
 Het was een simpel probleem met de background img nu nog de rest.
+
+Ik ben bezig met responsiveness, ik denk dat ik de animatie ga schrappen omdat het waarschijnlijk niet gaat lukken om die op tij af te kunnen maken.
 
 ### 18 okt
 

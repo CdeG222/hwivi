@@ -67,87 +67,52 @@ body > a:nth-of-type(1) {
 }
 
 nav {
+  grid-area: nav;
   position: sticky;
   top: 0;
-}
 
-nav ul {
-  justify-self: stretch;
-  backdrop-filter: blur(3px);
+  nav ul {
+    justify-self: stretch;
+    backdrop-filter: blur(3px);
 
-  @media (width > 19em) {
-    justify-content: center;
-    gap: 0.5em;
-  }
-  padding: 5px;
-  display: flex;
-  list-style-type: none;
-
-  border: solid 1px;
-  border-color: var(--background-primary);
-
-  li {
+    @media (width > 19em) {
+      justify-content: center;
+      gap: 0.5em;
+    }
     padding: 5px;
-    font-size: var(--font-size-nav-s);
-    background: var(--background-secondary);
-  }
-  @media (width > 400px) {
-    li {
-      font-size: var(--font-size-nav-m);
-    }
-  }
-  @media (prefers-contrast: more) {
-    li {
-      background-color: var(--contrast-light-secondary);
-    }
-  }
-  a {
-    writing-mode: vertical-lr;
+    display: flex;
+    list-style-type: none;
 
-    @media (width > 550px) {
-      writing-mode: horizontal-tb;
+    border: solid 1px;
+    border-color: var(--background-primary);
+
+    li {
+      padding: 5px;
+      font-size: var(--font-size-nav-s);
+      background: var(--background-secondary);
     }
-  }
-  @media (prefers-contrast: more) {
+    @media (width > 400px) {
+      li {
+        font-size: var(--font-size-nav-m);
+      }
+    }
+    @media (prefers-contrast: more) {
+      li {
+        background-color: var(--contrast-light-secondary);
+      }
+    }
     a {
-      color: var(--contrast-light-3);
+      writing-mode: vertical-lr;
+
+      @media (width > 550px) {
+        writing-mode: horizontal-tb;
+      }
     }
-  }
-}
-/* Terug knop styling */
-.terug-knop {
-  position: sticky;
-  top: 11em;
-
-  text-align: center;
-  text-decoration: none;
-  color: var(--terugknop-text);
-  background-color: var(--terugknop-background);
-
-  border: solid 1px;
-  border-color: var(--knop-border);
-  border-radius: 10px;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 12px;
-  padding-right: 12px;
-
-  /* margin-top: 10em; */
-
-  &::before {
-    content: "←";
-  }
-  &:hover {
-    background-color: var(--terugknop-hover);
-  }
-  @media (width > 550px) {
-    position: sticky;
-    top: 5.2em;
-  }
-  @media (width > 1000px) {
-    position: sticky;
-    top: 2em;
+    @media (prefers-contrast: more) {
+      a {
+        color: var(--contrast-light-3);
+      }
+    }
   }
 }
 
@@ -209,6 +174,14 @@ dialog {
 
 /* Body scherm 2 */
 .kat {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr;
+  grid-template-areas:
+    "nav nav nav"
+    "knop . ."
+    ". main .";
+
   background-image: linear-gradient(
     var(--background-primary),
     var(--background-secondary)
@@ -228,6 +201,60 @@ dialog {
 /**************************
 * MARK: Knoppen
 **************************/
+/* Springende kat knop */
+.spring-kat-link-naar-muziek {
+  position: relative;
+  bottom: 0;
+
+  img {
+    width: 100%;
+  }
+
+  &:hover {
+    filter: drop-shadow(0 0 1em white);
+  }
+  &:focus {
+    filter: drop-shadow(0 0 1em white);
+  }
+}
+
+/* Terug knop styling */
+.terug-knop {
+  grid-area: knop;
+  position: sticky;
+  top: 11em;
+
+  text-align: center;
+  text-decoration: none;
+  color: var(--terugknop-text);
+  background-color: var(--terugknop-background);
+
+  border: solid 1px;
+  border-color: var(--knop-border);
+  border-radius: 10px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  /* margin-top: 10em; */
+
+  &::before {
+    content: "←";
+  }
+  &:hover {
+    background-color: var(--terugknop-hover);
+  }
+  @media (width > 550px) {
+    position: sticky;
+    top: 5.2em;
+  }
+  @media (width > 1000px) {
+    position: sticky;
+    top: 2em;
+  }
+}
 button,
 summary {
   cursor: pointer;
@@ -285,7 +312,7 @@ textarea {
 }
 
 /**************************
-* MARK: H
+* MARK: Typografie
 **************************/
 /* Code voor de background in home voor H1 */
 .home-h1 {
@@ -301,13 +328,13 @@ h1 {
   font-size: var(--step-4);
 }
 h2 {
-  font-size: var(--step-3);
-}
-h3 {
   font-size: var(--step-2);
 }
-h4 {
+h3 {
   font-size: var(--step-1);
+}
+h4 {
+  font-size: var(--step-0);
 }
 
 p {
@@ -392,26 +419,25 @@ main dialog[open] {
 /* Code voor de main styling */
 
 main {
+  grid-area: main;
   max-width: 64ch;
 }
 
-h1 {
-  font-size: clamp(26px, 10vw, 3em);
-  text-align: center;
-}
-
 main {
-  align-self: center;
+  align-item: center;
   line-height: var(--line-height);
   grid-area: main;
 
   gap: var(--white-space);
   padding: var(--white-space);
 
+  /**************************
+* MARK: kat-knop
+**************************/
   /* kat positie met enorm veel @media */
   .kat-link {
-    position: relative absolute;
-    transform: translate(30%, 95%);
+    position: relative;
+    transform: translate(40%, 260%);
     width: 10rem;
     &:hover {
       filter: drop-shadow(0 0 1em white);
@@ -423,39 +449,39 @@ main {
 
   @media (width > 370px) {
     .kat-link {
-      transform: translate(55%, 90%);
+      transform: translate(50%, 260%);
       width: 10rem;
     }
   }
   @media (width > 420px) {
     .kat-link {
-      transform: translate(65%, 90%);
+      transform: translate(70%, 260%);
       width: 10rem;
     }
   }
 
   @media (width > 570px) {
     .kat-link {
-      transform: translate(120%, 75%);
+      transform: translate(120%, 280%);
       width: 10rem;
     }
   }
 
   @media (width > 760px) {
     .kat-link {
-      transform: translate(175%, 65%);
+      transform: translate(175%, 290%);
       width: 10rem;
     }
   }
   @media (width > 1020px) {
     .kat-link {
-      transform: translate(160%, 65%);
+      transform: translate(160%, 280%);
       width: 15rem;
     }
   }
   @media (width > 1430px) {
     .kat-link {
-      transform: translate(95%, 140%);
+      transform: translate(95%, 400%);
       width: 40rem;
     }
   }
