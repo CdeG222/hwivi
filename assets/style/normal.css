@@ -174,6 +174,7 @@ dialog {
   color: var(--Cookies-secondary);
 }
 
+/* Scherm 1 body */
 .home {
   background-image: linear-gradient(
     var(--background-primary),
@@ -197,9 +198,13 @@ dialog {
     background-size: auto;
   }
 }
+
+/* foto van kat op scherm 2 */
 .kat-foto {
   width: 400em;
 }
+
+/* Body scherm 2 */
 .kat {
   background-image: linear-gradient(
     var(--background-primary),
@@ -211,6 +216,10 @@ dialog {
     background-color: var(--contrast-light-primairy);
     background-image: none;
   }
+}
+
+.kat {
+  line-height: 1.5;
 }
 
 button,
@@ -368,10 +377,6 @@ main dialog[open] {
 * MARK: Main
 **************************/
 /* Code voor de main styling */
-.kat {
-  display: center;
-  line-height: 1.5;
-}
 
 main {
   max-width: 64ch;

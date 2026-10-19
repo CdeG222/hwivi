@@ -1,0 +1,96 @@
+/* MARK: fonts */
+@font-face {
+  font-family: "Seraphs";
+  src: url("font/SeraphsVF.woff2") format("woff2"); /* Modern Browsers */
+}
+/* MARK: items */
+body {
+  display: grid;
+  justify-content: center;
+  font-family: "Seraphs";
+  line-height: 1.5;
+}
+
+main {
+  max-width: 64ch;
+}
+
+h1 {
+  font-size: clamp(26px, 10vw, 3em);
+  text-align: center;
+}
+
+strong {
+  /* letter-spacing: 0.5px;
+  word-spacing: 0.5px; */
+  font-size: 2.5em;
+  line-height: 1;
+  word-spacing: 5px;
+}
+
+div {
+  transform: translateY(-70em);
+  /* top: -30em; */
+  @media (width > 500px) {
+    transform: translateY(-35em);
+  }
+}
+
+p:nth-of-type(5) {
+  transform: skew(20deg, 5deg);
+}
+
+p {
+  font-size: clamp(16px, 4vw, 22px);
+}
+
+.opacity-p {
+  opacity: 20%;
+}
+
+.p1 {
+  font-size: 14px;
+}
+.p2 {
+  font-size: 12px;
+}
+
+.p3 {
+  font-size: 10px;
+}
+
+.p4 {
+  font-size: 8px;
+}
+
+/* Bron is maarten van Poele hij heeft mij geholpen om dit te kunnen maken*/
+span {
+  display: inline-block;
+  animation-name: --wavy;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* Je kan dit gebruiken in plaats van al die :nth-of-type() */
+
+  /* Hier geef je elke sibling een delay van 0.1s. 
+    Sibling index begint op 1. Dus de eerste span.
+    Dan wordt de tweede span geselecteerd en krijgt dus een delay van 2 * 0.1s */
+  /* animation-delay: calc(sibling-index() * 0.1s); */
+
+  /* Als je de delay een negatieve waarde geeft, krijgt elke span een negatieve delay.
+    De animatie is dan al gestart als je de pagina inlaadt.*/
+  animation-delay: calc(sibling-index() * -0.1s);
+}
+
+@keyframes --wavy {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-16px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
