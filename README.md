@@ -1,6 +1,10 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
-## 18 okt
+### 19 okt
+
+Het was een simpel probleem met de background img nu nog de rest.
+
+### 18 okt
 
 Alles is stuk...
 Ik weet niet wat ik moet doen..
