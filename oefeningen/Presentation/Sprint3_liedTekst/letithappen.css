@@ -3,6 +3,11 @@
   font-family: "Seraphs";
   src: url("font/SeraphsVF.woff2") format("woff2"); /* Modern Browsers */
 }
+html {
+  --terugknop-background: light-dark(black, white);
+  --terugknop-text: light-dark(white, black);
+  --terugknop-hover: light-dark(rgb(62, 61, 61), rgb(219, 203, 203));
+}
 /* MARK: items */
 body {
   display: grid;
@@ -92,5 +97,36 @@ span {
 
   100% {
     transform: translateY(0px);
+  }
+}
+
+.terug-knop {
+  grid-area: knop;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  text-align: center;
+  text-decoration: none;
+  color: var(--terugknop-text);
+  background-color: var(--terugknop-background);
+
+  border: solid 1px;
+  border-color: var(--knop-border);
+  border-radius: 10px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  &::before {
+    content: "←";
+  }
+  &:hover {
+    background-color: var(--terugknop-hover);
+  }
+  button,
+  summary {
+    cursor: pointer;
   }
 }

@@ -2,12 +2,21 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 ### 19 okt
 
+todo
+Pas afbeeldingen met % aan bv: top 50%
+
+inplaats van 100 media queries en wanneer de achtergorond afbeelding schaaalt moet de afbeelding meeschalen
+
+feedback mijzelf en studenten
+![Deepdive](img-readme/Feedback-studenten.png)
+![Deepdive](img-readme/Webby.png)
+
 Ik heb tot nu toe alle deepdive gedaan!
-![Deepdive](img-readme/deepdive1)
-![Deepdive](img-readme/deepdive2)
-![Deepdive](img-readme/deepdive3)
-![Deepdive](img-readme/deepdive4)
-![Deepdive](img-readme/deepdive5)
+![Deepdive](img-readme/deepdive1.png)
+![Deepdive](img-readme/deepdive2.png)
+![Deepdive](img-readme/deepdive3.png)
+![Deepdive](img-readme/deepdive4.png)
+![Deepdive](img-readme/deepdive5.png)
 
 Het was een simpel probleem met de background img nu nog de rest.
 
