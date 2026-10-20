@@ -40,6 +40,20 @@ div {
     transform: translateY(-35em);
   }
 }
+p:nth-of-type(1) {
+  transform: skew(20deg, 5deg);
+}
+
+p:nth-of-type(2) {
+  transform: skew(20deg, -5deg);
+}
+
+p:nth-of-type(3) {
+  transform: skew(20deg, 5deg);
+}
+p:nth-of-type(4) {
+  transform: skew(20deg, -5deg);
+}
 
 p:nth-of-type(5) {
   transform: skew(20deg, 5deg);

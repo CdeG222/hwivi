@@ -207,12 +207,25 @@ dialog {
 **************************/
 /* Springende kat knop */
 
+.kat-link {
+  position: relative;
+  bottom: -45%;
+  left: 45%;
+  width: 10rem;
+  &:hover {
+    filter: drop-shadow(0 0 1em white);
+  }
+  &:focus {
+    filter: drop-shadow(0 0 1em white);
+  }
+}
 span {
   position: relative;
-  bottom: 0;
+  bottom: -50%;
+  left: 0%;
 
   img {
-    width: 100%;
+    width: 50%;
   }
 
   &:hover {
@@ -424,6 +437,7 @@ main dialog[open] {
 /* Code voor de main styling */
 
 main {
+  height: 100vh;
   grid-area: main;
   max-width: 64ch;
 }
@@ -435,61 +449,6 @@ main {
 
   gap: var(--white-space);
   padding: var(--white-space);
-
-  /**************************
-* MARK: kat-knop
-**************************/
-  /* kat positie met enorm veel @media */
-  .kat-link {
-    position: relative;
-    transform: translate(40%, 260%);
-    width: 10rem;
-    &:hover {
-      filter: drop-shadow(0 0 1em white);
-    }
-    &:focus {
-      filter: drop-shadow(0 0 1em white);
-    }
-  }
-
-  @media (width > 370px) {
-    .kat-link {
-      transform: translate(50%, 260%);
-      width: 10rem;
-    }
-  }
-  @media (width > 420px) {
-    .kat-link {
-      transform: translate(70%, 260%);
-      width: 10rem;
-    }
-  }
-
-  @media (width > 570px) {
-    .kat-link {
-      transform: translate(120%, 280%);
-      width: 10rem;
-    }
-  }
-
-  @media (width > 760px) {
-    .kat-link {
-      transform: translate(175%, 290%);
-      width: 10rem;
-    }
-  }
-  @media (width > 1020px) {
-    .kat-link {
-      transform: translate(160%, 280%);
-      width: 15rem;
-    }
-  }
-  @media (width > 1430px) {
-    .kat-link {
-      transform: translate(95%, 400%);
-      width: 40rem;
-    }
-  }
 }
 
 /* *************************

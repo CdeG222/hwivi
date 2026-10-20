@@ -1,11 +1,23 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 20 okt
+
+Ik heb de song text aangepast ga hulp nodig hebben met:
+
+Terug knop song text.
+
+plaats van kat en animatie home pagina.
+
 ### 19 okt
 
 todo
 Pas afbeeldingen met % aan bv: top 50%
 
 inplaats van 100 media queries en wanneer de achtergorond afbeelding schaaalt moet de afbeelding meeschalen
+
+daarna song tekst maak begin minder saai.
+
+Typografie mischien, daarna meer toevoegen.
 
 feedback mijzelf en studenten
 ![Deepdive](img-readme/Feedback-studenten.png)
