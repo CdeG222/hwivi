@@ -6,6 +6,16 @@ Bi-weekly-geek-3
 
 ![Bi-Weekly_geek](img-readme/Bi-weekly-geek3.jpeg\)
 
+De thema's in pagina 2 zijn gebaseerd op de katten in de foto.
+
+Ik ben fucked.
+
+Ik moet, Font invoegen.
+Knoppen navigatie aanpassen in pagina 2.
+
+Screenreader vriendelijk maken?
+
+
 ### 20 okt
 
 Ik heb de song text aangepast ga hulp nodig hebben met:

@@ -1,7 +1,7 @@
 /* MARK: fonts */
 @font-face {
   font-family: "Seraphs";
-  src: url("assets/type/SeraphsVF.woff2") format("woff2"); /* Modern Browsers */
+  src: url(../../../assets/type/SeraphsVF.woff2) format("woff2"); /* Modern Browsers */
 }
 html {
   color-scheme: light dark;
