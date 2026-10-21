@@ -18,7 +18,7 @@ header {
 body {
   display: grid;
   justify-content: center;
-  font-family: "Seraphs";
+  font-family: "Seraphs", sans-serif;
   line-height: 1.5;
 }
 
