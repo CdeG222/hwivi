@@ -85,6 +85,7 @@ nav {
   grid-area: nav;
   position: sticky;
   top: 0;
+  text-decoration: none;
 }
 nav ul {
   justify-self: stretch;
@@ -373,7 +374,7 @@ input,
 select,
 textarea {
   font: inherit;
-  &:focus {
+  &:focus-visible {
     border-radius: 3px;
     outline: 0.2em dashed var(--focus);
   }

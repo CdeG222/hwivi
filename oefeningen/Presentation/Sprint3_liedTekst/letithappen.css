@@ -9,6 +9,7 @@ html {
   --terugknop-background: light-dark(black, white);
   --terugknop-text: light-dark(white, black);
   --terugknop-hover: light-dark(rgb(62, 61, 61), rgb(219, 203, 203));
+  --focus: light-dark(black, yellow);
 }
 /* MARK: items */
 header {
@@ -147,5 +148,17 @@ span {
   button,
   summary {
     cursor: pointer;
+  }
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  &:focus-visible {
+    border-radius: 3px;
+    outline: 0.2em dashed var(--focus);
   }
 }

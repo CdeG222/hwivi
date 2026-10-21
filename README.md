@@ -4,7 +4,7 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 Bi-weekly-geek-3
 
-![Bi-Weekly_geek](img-readme/Bi-weekly-geek3.jpeg\)
+![Bi-Weekly_geek](img-readme/Bi-weekly-geek3.jpeg)
 
 De thema's in pagina 2 zijn gebaseerd op de katten in de foto.
 
@@ -15,6 +15,12 @@ Knoppen navigatie aanpassen in pagina 2.
 
 Screenreader vriendelijk maken?
 
+Sanne heeft mij geholpen met de plaatsingvan de katten ik heb nu verschillende problemen opgelost.
+
+Hte plaatje van alle 3 beoordelingen zijn helaas kwijt. Dus ik heb alleen die van mij.
+
+![Peer-Feedback](img-readme/Peerfeedback1.png)
+![Peer-Feedback](img-readme/Peerfeedback2.png)
 
 ### 20 okt
 
@@ -40,11 +46,11 @@ feedback mijzelf en studenten
 ![Deepdive](img-readme/Webby.png)
 
 Ik heb tot nu toe alle deepdive gedaan!
-![Deepdive](img-readme/deepdive1.png)
-![Deepdive](img-readme/deepdive2.png)
-![Deepdive](img-readme/deepdive3.png)
-![Deepdive](img-readme/deepdive4.png)
-![Deepdive](img-readme/deepdive5.png)
+![Deepdive](img-readme/Deepdive1.png)
+![Deepdive](img-readme/Deepdive2.png)
+![Deepdive](img-readme/Deepdive3.png)
+![Deepdive](img-readme/Deepdive4.png)
+![Deepdive](img-readme/Deepdive5.png)
 
 Het was een simpel probleem met de background img nu nog de rest.
 
