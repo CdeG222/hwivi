@@ -1,5 +1,11 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 21 okt
+
+Bi-weekly-geek-3
+
+![Bi-Weekly_geek](img-readme/Bi-weekly-geek3.jpeg\)
+
 ### 20 okt
 
 Ik heb de song text aangepast ga hulp nodig hebben met:
