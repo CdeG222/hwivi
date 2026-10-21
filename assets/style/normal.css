@@ -267,12 +267,20 @@ dialog {
 
   /* left: 0%; */
 
-  left: calc(50% - 25vw);
-  top: calc(50% + 40vh);
+  --size: clamp(7rem, 5.5rem + 7.5vw, 10rem);
 
-  translate: -50% -50%;
+  left: calc(50% - 25vw - var(--size) * 0.5);
+  top: calc(50% + 40vh - var(--size) * 0.5);
 
-  width: clamp(7rem, 5.5rem + 7.5vw, 10rem);
+  /* translate: -50% -50%; */
+
+  width: var(--size);
+
+  animation-name: --13-keyframes-animation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+
+  transform-origin: center bottom;
 
   img {
     width: 100%;
@@ -294,6 +302,7 @@ dialog {
   position: sticky;
   top: 26%;
 
+  width: fit-content;
   text-align: center;
   text-decoration: none;
   color: var(--terugknop-text);
@@ -318,8 +327,12 @@ dialog {
   }
   @media (width > 550px) {
     position: sticky;
-    top: 6em;
+    top: 7.8em;
   }
+
+  @media (width > 700px) {
+  }
+
   @media (width > 1000px) {
     position: sticky;
     top: 3.1em;
@@ -523,63 +536,62 @@ main {
 /* Code van Sanne */
 
 @keyframes --13-keyframes-animation {
-  0%,
-  20% {
+  0% {
     /* JOUW CODE HIER */
     /* scale */
     scale: 1;
   }
-  27% {
+  4% {
     /* JOUW CODE HIER */
     /* scale */
     scale: 1.2 0.8;
   }
-  34% {
+  7% {
     /* JOUW CODE HIER */
     /* scale */
     scale: 0.9 1.1;
   }
-  38% {
+  9% {
     /* JOUW CODE HIER */
     /* scale, translate en animation-timing-function */
     translate: 0 0;
     scale: 1.35 0.65;
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
   }
-  50% {
+  15% {
     /* JOUW CODE HIER */
     /* scale, translate en animation-timing-function */
     translate: 0 -3em;
     scale: 0.67 1.5;
     animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
   }
-  62% {
+  21% {
     /* JOUW CODE HIER */
     /* scale en translate  */
     translate: 0 0;
     scale: 2 0.25;
   }
-  68% {
+  24% {
     /* JOUW CODE HIER */
     /* scale */
     scale: 0.8 1.2;
   }
-  72% {
+  26% {
     /* JOUW CODE HIER */
     /* scale */
     scale: 1.1 0.9;
   }
-  75% {
+  27% {
     /* JOUW CODE HIER */
     /* scale */
     scale: 0.95 1.05;
   }
-  78% {
+  29% {
     /* JOUW CODE HIER */
     /* scale */
     scale: 1.02 0.98;
   }
-  80%,
+  30%,
   100% {
     /* JOUW CODE HIER */
     /* scale */
