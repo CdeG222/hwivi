@@ -4,11 +4,17 @@
   src: url("assets/type/SeraphsVF.woff2") format("woff2"); /* Modern Browsers */
 }
 html {
+  color-scheme: light dark;
+
   --terugknop-background: light-dark(black, white);
   --terugknop-text: light-dark(white, black);
   --terugknop-hover: light-dark(rgb(62, 61, 61), rgb(219, 203, 203));
 }
 /* MARK: items */
+header {
+  top: 20%;
+  position: relative;
+}
 body {
   display: grid;
   justify-content: center;
@@ -115,10 +121,9 @@ span {
 }
 
 .terug-knop {
-  grid-area: knop;
-  position: sticky;
-  top: 0;
-  left: 0;
+  position: relative;
+  top: -10%;
+  left: 0%;
 
   text-align: center;
   text-decoration: none;
