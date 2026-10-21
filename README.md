@@ -54,7 +54,7 @@ Ik heb tot nu toe alle deepdive gedaan!
 
 Het was een simpel probleem met de background img nu nog de rest.
 
-Ik ben bezig met responsiveness, ik denk dat ik de animatie ga schrappen omdat het waarschijnlijk niet gaat lukken om die op tij af te kunnen maken.
+Ik ben bezig met responsiveness, ik denk dat ik de animatie ga schrappen omdat het waarschijnlijk niet gaat lukken om die op tijd af te kunnen maken.
 
 ### 18 okt
 
