@@ -1,7 +1,7 @@
 /* MARK: fonts */
 @font-face {
   font-family: "Seraphs";
-  src: url("font/SeraphsVF.woff2") format("woff2"); /* Modern Browsers */
+  src: url("assets/type/SeraphsVF.woff2") format("woff2"); /* Modern Browsers */
 }
 html {
   --terugknop-background: light-dark(black, white);
