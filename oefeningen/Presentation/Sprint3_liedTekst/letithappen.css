@@ -51,23 +51,55 @@ p:nth-of-type(1) {
   transform: skew(20deg, 5deg);
 }
 
-p:nth-of-type(2) {
+/* p:nth-of-type(2) {
   transform: skew(20deg, -5deg);
-}
+} */
 
-p:nth-of-type(3) {
+p:nth-of-type(4) {
   transform: skew(20deg, 5deg);
 }
-p:nth-of-type(4) {
+/* p:nth-of-type(5) {
   transform: skew(20deg, -5deg);
-}
+} */
 
-p:nth-of-type(5) {
+p:nth-of-type(6) {
   transform: skew(20deg, 5deg);
 }
 
 p {
   font-size: clamp(16px, 4vw, 22px);
+}
+
+.Muziek-slow {
+  line-height: 2em;
+  text-align: center;
+}
+
+.Animation-slow {
+  animation-name: --Music-slow;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  font-size: 6em;
+
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.Muziek-slow {
+  line-height: 2em;
+  text-align: center;
+}
+
+.Animation-fast {
+  animation-name: --Music-long;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-size: 6em;
+
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .opacity-p {
@@ -160,5 +192,110 @@ textarea {
   &:focus-visible {
     border-radius: 3px;
     outline: 0.2em dashed var(--focus);
+  }
+}
+
+@keyframes --Music-slow {
+  0% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+  }
+  12.5% {
+    font-variation-settings:
+      "wght" 110,
+      "SRFS" 15;
+  }
+  25% {
+    font-variation-settings:
+      "wght" 125,
+      "SRFS" 20;
+  }
+  37.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+  }
+  50% {
+    transform: skew(20deg, 5deg);
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+  }
+  75% {
+    transform: skew(20deg, 5deg);
+    font-variation-settings:
+      "wght" 160,
+      "SRFS" 40;
+  }
+  100% {
+    transform: skew(20deg, 5deg);
+    font-variation-settings:
+      "wght" 175,
+      "SRFS" 45;
+  }
+}
+
+@keyframes --Music-long {
+  0% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+  }
+  6% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+    transform: skew(20deg, 1deg);
+  }
+  12.5% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+    transform: skew(20deg, 3deg);
+  }
+  25% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+    transform: skew(20deg, 5deg);
+  }
+  25%,
+  50% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+    transform: skew(20deg, 5deg);
+  }
+
+  50% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 10;
+    transform: skew(20deg, -10deg);
+  }
+  62.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 0;
+    transform: skew(20deg, 5deg);
+  }
+  75% {
+    font-variation-settings:
+      "wght" 200,
+      "SRFS" 15;
+    transform: skew(20deg, -25deg);
+  }
+  90% {
+    transform: skew(20deg, 15deg);
+    font-variation-settings:
+      "wght" 115,
+      "SRFS" 10;
+  }
+  100% {
+    transform: skew(20deg, 25deg);
+    font-variation-settings:
+      "wght" 130,
+      "SRFS" 20;
   }
 }
