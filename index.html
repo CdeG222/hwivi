@@ -30,7 +30,7 @@
   <body class="home">
     <main>
       <header>
-        <h1 class="home-h1">Katten!</h1>
+        <h1 class="home-h1">Kat & zo</h1>
         <!-- <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -39,7 +39,13 @@
         </nav> -->
       </header>
 
-      <button commandfor="mydialog" command="show-modal">
+      <!-- https://www.youtube.com/watch?v=GH1N2m75eE4 Aria uitleg -->
+
+      <button
+        commandfor="mydialog"
+        command="show-modal"
+        aria-label="Knop naar cookies"
+      >
         <img src="assets/images/Cookie.png" alt="Cookie" />
       </button>
 
@@ -65,20 +71,33 @@
               voor extra analysecookies.
             </li>
           </ul>
-          <button class="accepteer-knop" onclick="setCookie()">
+          <button
+            class="accepteer-knop"
+            onclick="setCookie()"
+            aria-label="Accepteer cookies"
+          >
             Accepteer cookies
           </button>
-          <a class="weiger-knop" href="https://www.google.com">
+          <a
+            class="weiger-knop"
+            href="https://www.google.com"
+            aria-label="Weiger cookies"
+          >
             Weiger cookies</a
           >
         </form>
       </dialog>
-      <a class="kat-link" href="Waarom_een_kat.html">
+      <a
+        class="kat-link"
+        href="Waarom_een_kat.html"
+        aria-label="Knop naar 'blog' over kat"
+      >
         <img src="assets/images/Domestic-Cat.png" alt="" />
       </a>
       <a
         class="spring-kat-link-naar-muziek"
         href="oefeningen/Presentation/Sprint3_liedTekst/Muziek_typografie_interpitatie.html"
+        aria-label="Knop naar muziektekst interpitatie"
       >
         <img src="assets/images/Kat-spring.png" alt="" />
       </a>
