@@ -102,6 +102,17 @@ p {
   margin-bottom: 1em;
 }
 
+.Animation-slow2 {
+  animation-name: --Music-slow2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  font-size: 6em;
+
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .opacity-p {
   opacity: 20%;
 }
@@ -297,5 +308,63 @@ textarea {
     font-variation-settings:
       "wght" 130,
       "SRFS" 20;
+  }
+}
+
+@keyframes --Music-slow2 {
+  0% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+    transform: skew(20deg, 25deg);
+  }
+  12.5% {
+    font-variation-settings:
+      "wght" 110,
+      "SRFS" 15;
+    transform: skew(-20deg, -25deg);
+  }
+  25% {
+    font-variation-settings:
+      "wght" 125,
+      "SRFS" 20;
+    transform: skew(20deg, 25deg);
+  }
+  37.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+    transform: skew(20deg, -25deg);
+  }
+  50% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+    transform: skew(20deg, 25deg);
+  }
+  62.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+    transform: skew(20deg, -25deg);
+  }
+
+  75% {
+    font-variation-settings:
+      "wght" 160,
+      "SRFS" 40;
+    transform: skew(20deg, 25deg);
+  }
+  87.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+    transform: skew(20deg, -25deg);
+  }
+  100% {
+    font-variation-settings:
+      "wght" 175,
+      "SRFS" 45;
+    transform: skew(20deg, 25deg);
   }
 }
