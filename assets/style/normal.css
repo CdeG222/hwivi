@@ -79,6 +79,23 @@ body > a:nth-of-type(1) {
   }
 }
 
+img,
+svg,
+video {
+  max-width: 100%;
+  width: 13em;
+  display: block;
+  height: auto;
+}
+
+dialog {
+  z-index: 10;
+  max-width: 32em;
+
+  background-color: var(--Cookies-primairy);
+  color: var(--Cookies-secondary);
+}
+
 /**************************
 * MARK: Nav
 **************************/
@@ -145,23 +162,6 @@ nav ul {
 *::after,
 *::before {
   box-sizing: border-box;
-}
-
-img,
-svg,
-video {
-  max-width: 100%;
-  width: 13em;
-  display: block;
-  height: auto;
-}
-
-dialog {
-  z-index: 10;
-  max-width: 32em;
-
-  background-color: var(--Cookies-primairy);
-  color: var(--Cookies-secondary);
 }
 
 /**************************
