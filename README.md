@@ -1,5 +1,10 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 22 okt
+
+Ik heb Aria labels toegevoegd om de knoppen op een screenreader duidelijker te maken.
+
+
 ### 21 okt
 
 Bi-weekly-geek-3
@@ -17,7 +22,9 @@ Screenreader vriendelijk maken?
 
 Sanne heeft mij geholpen met de plaatsingvan de katten ik heb nu verschillende problemen opgelost.
 
-Hte plaatje van alle 3 beoordelingen zijn helaas kwijt. Dus ik heb alleen die van mij.
+Sanne heeft ook geholpen met het maken van de animatie.
+
+Het plaatje van alle 3 beoordelingen zijn helaas kwijt. Dus ik heb alleen die van mij.
 
 ![Peer-Feedback](img-readme/Peerfeedback1.png)
 ![Peer-Feedback](img-readme/Peerfeedback2.png)
