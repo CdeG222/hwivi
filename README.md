@@ -2,6 +2,8 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 ### 22 okt
 
+De titel blijft nu gecentreerd, ook als het scherm groter wordt.
+
 Dit staat van meest recent naar minst recent op deze datum. Notitie gezien.
 
 Ik heb de typografie van de blog aangepast om de hierarchie duidelijker te maken. Ikm heb de grid aangepast om het op kleinere schermen beter leesbaar te maken.
