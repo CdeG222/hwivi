@@ -2,8 +2,13 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 ### 22 okt
 
-Ik heb Aria labels toegevoegd om de knoppen op een screenreader duidelijker te maken.
+Nth of type werkt niet op de h3 dus is ga een class gebruiken.
 
+Ik heb voor een uur geprobeerd om een font te laten werken en heb verschillende kat fonts geprobeerd werkend te krijgen helaas werkt het niet. Dus ik ga wat anders proberen.
+
+Ik voel me ziek, maar moet door.
+
+Ik heb Aria labels toegevoegd om de knoppen op een screenreader duidelijker te maken.
 
 ### 21 okt
 

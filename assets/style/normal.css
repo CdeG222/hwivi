@@ -1,14 +1,16 @@
 /**************************
 * MARK: Fonts
 **************************/
-
+/* Waarom werkt dit niet???? */
 @font-face {
   font-family: "Kat";
-  src: url(../type/kitty_cats.ttf) format("ttf"); /* Modern Browsers */
+  src: url(../type/Cattie-Regular.ttf) format("ttf"); /* Modern Browsers */
+  font-weight: 400;
+  font-stretch: 100%;
 }
 
 @font-face {
-  font-family: Seraphs;
+  font-family: "Seraphs";
   src: url(../type/SeraphsVF.woff2) format("woff2"); /* Modern Browsers */
 }
 
@@ -36,7 +38,7 @@ html {
   --contrast-light-3: light-dark(yellow, black);
   --contrast-light-text: light-dark(black, yellow);
   --focus: light-dark(black, yellow);
-  --font-size-p: 1.25em;
+  --font-size-p: 1.1em;
   --font-size-nav-s: 1.25em;
   --font-size-nav-m: 1.15em;
   --line-height: 1.5;
@@ -197,6 +199,10 @@ dialog {
 
 /* Body scherm 2 */
 
+/**************************
+* MARK: Grid
+**************************/
+
 .kat {
   font-family: "Seraphs", sans-serif;
   font-variation-settings:
@@ -208,7 +214,7 @@ dialog {
   grid-template-areas:
     "nav nav nav"
     "knop . ."
-    ". main .";
+    "main main main";
 
   background-image: linear-gradient(
     var(--background-primary),
@@ -406,30 +412,41 @@ textarea {
 **************************/
 /* Code voor de background in home voor H1 */
 .home-h1 {
-  background: var(--h1-background);
-  width: max-content;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 12px;
-  padding-right: 12px;
+  text-align: center;
+  font-family: "Seraphs", sans-serif;
   font-size: var(--step-4);
+  font-variation-settings:
+    "wght" 200,
+    "SRFS" 30;
+  /* Waarom werkt de kat niet??? */
+  /* font-family: "Kat", sans-serif; */
 }
 h1 {
   font-size: var(--step-4);
+  font-variation-settings:
+    "wght" 200,
+    "SRFS" 30;
 }
 h2 {
-  font-size: var(--step-2);
+  margin-top: 5em;
+  font-size: var(--step-3);
+  font-variation-settings:
+    "wght" 150,
+    "SRFS" 30;
 }
 h3 {
-  font-size: var(--step-1);
+  font-size: var(--step-2);
+  font-variation-settings:
+    "wght" 130,
+    "SRFS" 30;
 }
 h4 {
   font-size: var(--step-0);
+  font-variation-settings:
+    "wght" 115,
+    "SRFS" 30;
 }
 
-h3:nth-of-type(1) {
-  margin-top: 10em;
-}
 p {
   font-size: var(--font-size-p);
   @media (prefers-contrast: more) {
