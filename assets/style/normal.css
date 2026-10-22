@@ -200,7 +200,7 @@ dialog {
 /* Body scherm 2 */
 
 /**************************
-* MARK: Grid
+* MARK: Body met Grid
 **************************/
 
 .kat {
@@ -216,6 +216,12 @@ dialog {
     "knop . ."
     "main main main";
 
+  @media (width > 550px) {
+    grid-template-areas:
+      "nav nav nav"
+      "knop . ."
+      ". main .";
+  }
   background-image: linear-gradient(
     var(--background-primary),
     var(--background-secondary)
