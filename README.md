@@ -2,7 +2,17 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 ### 22 okt
 
+Dit staat van meest recent naar minst recent op deze datum. Notitie gezien.
+
+Ik heb de typografie van de blog aangepast om de hierarchie duidelijker te maken. Ikm heb de grid aangepast om het op kleinere schermen beter leesbaar te maken.
+
+De kat font werkt niet dus kan ik het helaas niet leuker maken.
+
+Ik ga hier morgen verder naar vragen.
+
 Ik heb de muziek tekst meer aandacht gegeven en het meer op de muziek laten lijken
+
+Ik heb meer animatie ern gestopt om het tempo van het muziek aan te houden.
 
 Nth of type werkt niet op de h3 dus is ga een class gebruiken.
 
