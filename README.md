@@ -4,7 +4,7 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 Ik heb reduced motion toegevoegd aan de animaties.
 
-Student-asistent heeft mij geholpen met de knoppen in de dialog en de font.
+Student-assistent heeft mij geholpen met de knoppen in de dialog en de font.
 
 ## Retrospective
 
