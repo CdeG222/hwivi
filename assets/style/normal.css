@@ -378,8 +378,11 @@ main > button {
   border: none;
   background: none;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5%;
+  right: 5%;
+  img {
+    width: 8em;
+  }
   &:hover {
     filter: drop-shadow(0 0 1em white);
   }
