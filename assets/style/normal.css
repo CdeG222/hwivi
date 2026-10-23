@@ -417,11 +417,11 @@ textarea {
   color: var(--h1);
   position: absolute;
   top: 0;
-  left: calc(30% + 4.5vw);
+  left: calc(30% + 3.5vw);
 
   font-size: var(--step-5);
 
-  font-family: "Kat", sans-serif;
+  font-family: "Seraphs", sans-serif;
 }
 h1 {
   font-size: var(--step-4);
