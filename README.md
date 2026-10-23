@@ -4,6 +4,17 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 Ik heb reduced motion toegevoegd aan de animaties.
 
+Student-asistent heeft mij geholpen met de knoppen in de dialog en de font.
+
+## Retrospective
+
+![Retrospective-3](img-readme/Retrospect3-1.png)
+![Retrospective-3](img-readme/Retrospect3-2.png)
+![Retrospective-3](img-readme/Retrospect3-4.png)
+![Retrospective-3](img-readme/Retrospect3-3.png)
+
+3 en 4 zijn verkeerd gelabeld het staat in de goed volgorde.
+
 ## Vragenlijst voor 23 okt
 
 - Vraag over het font probleem met de kat
