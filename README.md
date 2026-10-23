@@ -1,6 +1,18 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 23 okt
+
+
+
+## Vragenlijst voor 23 okt
+
+- Vraag over het font probleem met de kat
+- Vraag waarom kleur op h1 het niet doet
+- Vraag waarom ik geen balk kan maken
+
 ### 22 okt
+
+Ik zou niet weten waarom ik de kleur van home h1 niet kan aanpassen.
 
 De titel blijft nu gecentreerd, ook als het scherm groter wordt.
 

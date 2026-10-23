@@ -80,6 +80,9 @@ p {
   animation-duration: 6s;
   animation-iteration-count: infinite;
   font-size: 6em;
+  @media (prefers-reduced-motion) {
+    animation: none;
+  }
 
   text-align: center;
   margin-top: 1em;
@@ -96,6 +99,9 @@ p {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   font-size: 6em;
+  @media (prefers-reduced-motion) {
+    animation: none;
+  }
 
   text-align: center;
   margin-top: 1em;
@@ -107,7 +113,9 @@ p {
   animation-duration: 6s;
   animation-iteration-count: infinite;
   font-size: 6em;
-
+  @media (prefers-reduced-motion) {
+    animation: none;
+  }
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;

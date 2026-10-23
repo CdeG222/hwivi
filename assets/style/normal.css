@@ -21,7 +21,7 @@
 html {
   color-scheme: light dark;
 
-  --h1-background: light-dark(rgb(255 255 255 / 85%), rgb(0 0 0 / 70%));
+  --h1: (rgb(242, 7, 7));
   --background-secondary: light-dark(orange, rgb(70, 70, 70));
   --background-primary: light-dark(white, black);
   --Cookies-primairy: light-dark(White, black);
@@ -106,7 +106,6 @@ nav {
   top: 0;
 }
 nav ul {
-  
   justify-self: stretch;
   backdrop-filter: blur(3px);
 
@@ -282,6 +281,10 @@ nav ul {
 
   transform-origin: center bottom;
 
+  @media (prefers-reduced-motion) {
+    animation: none;
+  }
+
   img {
     width: 100%;
   }
@@ -410,6 +413,7 @@ textarea {
 **************************/
 /* Code voor de background in home voor H1 */
 .home-h1 {
+  color: var(--h1);
   position: absolute;
   top: 0;
   left: calc(30% + 8vw);
