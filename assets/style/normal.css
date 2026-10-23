@@ -379,7 +379,7 @@ main > button {
   top: 5%;
   right: 5%;
   img {
-    width: 8em;
+    width: 5em;
   }
   &:hover {
     filter: drop-shadow(0 0 1em white);
@@ -523,6 +523,8 @@ main dialog {
   }
   transform-origin: top center;
 }
+
+/* Knoppen gefixt met hulp van student */
 
 form {
   display: grid;
