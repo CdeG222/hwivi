@@ -4,7 +4,7 @@
 /* Waarom werkt dit niet???? */
 @font-face {
   font-family: "Kat";
-  src: url(../type/Cattie-Regular.ttf) format("ttf"); /* Modern Browsers */
+  src: url(../type/Cattie-Regular.ttf); /* Modern Browsers */
   font-weight: 400;
   font-stretch: 100%;
 }
@@ -359,18 +359,18 @@ summary {
   color: var(--knop-text);
   border: solid 1px;
   border-color: var(--knop-border);
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  /* height: 50px !important; */
+  display: flex;
+  width: min-content;
+  text-wrap: nowrap;
   &:hover {
     background-color: var(--knop-hover);
   }
 }
 /* Invidu styling voor weiger knop */
-.weiger-knop {
-  /* padding: 1px; */
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 6px;
-  padding-right: 6px;
-}
 
 /* Code voor de cookie plaatje aanpassen. */
 main > button {
@@ -417,13 +417,13 @@ textarea {
   position: absolute;
   top: 0;
   left: calc(30% + 8vw);
-  font-family: "Seraphs", sans-serif;
+  /* font-family: "Seraphs", sans-serif; */
   font-size: var(--step-4);
   font-variation-settings:
     "wght" 200,
     "SRFS" 30;
   /* Waarom werkt de kat niet??? */
-  /* font-family: "Kat", sans-serif; */
+  font-family: "Kat", sans-serif;
 }
 h1 {
   font-size: var(--step-4);
@@ -524,6 +524,17 @@ main dialog {
       display 0.2s allow-discrete;
   }
   transform-origin: top center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  p {
+    grid-column: 1/-1;
+  }
+  ul {
+    grid-column: 1/-1;
+  }
 }
 
 main dialog[open] {
