@@ -15,7 +15,7 @@ Student-asistent heeft mij geholpen met de knoppen in de dialog en de font.
 
 3 en 4 zijn verkeerd gelabeld het staat in de goed volgorde.
 
-Ik heb een vairiable font gevonden, maar die is betaaald, hier zou ik scherm 2 leuker kunnen maken door een kat erop te animeren met een aside. Im ga alleen niet 25 euro daarvoor betalen.
+Ik heb een variable font gevonden, maar die is betaald, hier zou ik scherm 2 leuker kunnen maken door een kat erop te animeren met een aside. Im ga alleen niet 25 euro daarvoor betalen.
 
 ![Font](img-readme/Font-25.png)
 
