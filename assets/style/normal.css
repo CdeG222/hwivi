@@ -21,7 +21,7 @@
 html {
   color-scheme: light dark;
 
-  --h1: (rgb(242, 7, 7));
+  --h1: rgb(255, 210, 105);
   --background-secondary: light-dark(orange, rgb(70, 70, 70));
   --background-primary: light-dark(white, black);
   --Cookies-primairy: light-dark(White, black);

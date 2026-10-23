@@ -2,7 +2,7 @@ _Kopieer en plak hier jouw README.md uit sprint 1._
 
 ### 23 okt
 
-
+Ik heb reduced motion toegevoegd aan de animaties.
 
 ## Vragenlijst voor 23 okt
 
