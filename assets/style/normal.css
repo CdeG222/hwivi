@@ -537,6 +537,10 @@ form {
   }
 }
 
+.accepteer-knop {
+  justify-self: end;
+}
+
 main dialog[open] {
   scale: 1;
 }
