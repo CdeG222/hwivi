@@ -1,5 +1,13 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+### 24 okt
+
+![Schets-pagina-2](img-readme/Schets-pagina2.png)
+
+Het plan is om de kat waar je op geklikt heb terug te halen in de pagina. Verder ga ik ook de kleuren lichter houden om de thema's hetzelfde te houden.
+
+Ik heb nu de cookie en kat terug gehaald op pagina 2 ik ga de kat op een net zetten zoals pagina 1.
+
 ### 23 okt
 
 Ik heb reduced motion toegevoegd aan de animaties.

@@ -17,22 +17,58 @@
       defer
     ></script>
   </head>
-  <a aria-label=" Direct naar hoofdinhoud"> href="#main">direct naar de hoofdinhoud </a>
-  <nav>
-    <ul>
-      <li aria-label="Waarom een kat"><a href="#Waarom_een_kat">Waarom een kat</a></li>
-      <li aria-label="Goede huisdieren">
-        <a href="#goede_huisdieren">Goede huisdieren</a>
-      </li>
-    </li>
-      <li aria-label="Katten zijn goed in knuffelen"><a href="#knuffelen">Goed knuffelen</a></li>
-     <li aria-label="Katten maken zichzelf schoon"><a href="#schoon">Katten zijn schoon</a></li>
-      <li aria-label="Katten vermaken zichzelf"><a href="#vermaken">Zichzelf vermaken</a></li>
-      <li aria-label="Katten kosten minder tijd om voor te zorgen"><a href="#minder-tijd">Minder tijd</a></li>
-      <li aria-label="Er zijn veel verschillende soorten katten"><a href="#maten">Veel soorten</a></li>
-    </ul>
-  </nav>
-  <a class="terug-knop" href="index.html" aria-label="Terug naar homescherm"> terug naar home</a>
+  <a aria-label=" Direct naar hoofdinhoud">
+    href="#main">direct naar de hoofdinhoud
+  </a>
+
+  <button commandfor="mydialog" command="show-modal">
+    <img src="assets/images/Cookie.png" alt="Knop naar cookies" />
+  </button>
+
+  <dialog id="mydialog">
+    <form method="dialog">
+      <p>
+        Omdat deze website github gebruikt moeten we deze gegevens verzamelen
+        voor <em>microsoft</em> dit is standaard.
+      </p>
+      <ul>
+        <li>
+          Uw <em> IP-adres </em> en ongeveer <em> locatie </em> afgeleid hieruit
+          Browser
+        </li>
+        <li>Welk <em>apparaat</em> u gebruikt</li>
+        <li>Uw <em>besturingssysteem</em> en technische identificaties</li>
+        <li>Uw Opgevraagde URL's/pagina's die u gebruikt</li>
+        <li>
+          <em
+            >Interactie- en gebruiksgegevens Prestatie, beveiligings- en
+            foutgegevens Cookies </em
+          >, vooral als je bent ingelogd bij GitHub of toestemming geeft voor
+          extra analysecookies.
+        </li>
+      </ul>
+      <button
+        class="accepteer-knop"
+        onclick="setCookie()"
+        aria-label="Accepteer cookies"
+      >
+        Accepteer cookies
+      </button>
+      <a
+        class="weiger-knop"
+        href="https://www.google.com"
+        aria-label="Weiger cookies"
+      >
+        Weiger cookies</a
+      >
+    </form>
+  </dialog>
+  <a class="terug-knop" href="index.html" aria-label="Terug naar homescherm">
+    terug naar home</a
+  >
+  <a class="kat-link2" href="index.html">
+    <img src="assets/images/Domestic-Cat.png" alt="Knop terug naar home" />
+  </a>
 
   <body class="kat">
     <main id="main">
@@ -45,26 +81,23 @@
         </p>
       </article>
 
-        <picture>
-          <source
-            srcset="assets/images/Zwarte-kat.png"
-            alt="Een zwarte kat met blauwe achtergrond!"
-            media="(prefers-color-scheme: dark)"
-          />
-          <img
-            class="kat-foto"
-            src="assets/images/Oranje-kat.png"
-            alt="Een oranje kat met achtergrond!"
-          />
-        </picture>
+      <picture>
+        <source
+          srcset="assets/images/Zwarte-kat.png"
+          alt="Een zwarte kat met blauwe achtergrond!"
+          media="(prefers-color-scheme: dark)"
+        />
+        <img
+          class="kat-foto"
+          src="assets/images/Oranje-kat.png"
+          alt="Een oranje kat met achtergrond!"
+        />
+      </picture>
 
       <article>
         <h2 id="goede_huisdieren">Waarom katten goede huisdieren zijn!</h2>
 
-      
-
         <!-- bron: https://rubriek.nl/dieren/waarom-katten-de-beste-huisdieren-zijn/ -->
-
 
         <h3 id="knuffelen">Katten zijn goed in knuffelen</h3>
 
