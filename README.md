@@ -8,6 +8,8 @@ Het plan is om de kat waar je op geklikt heb terug te halen in de pagina. Verder
 
 Ik heb nu de cookie en kat terug gehaald op pagina 2 ik ga de kat op een net zetten zoals pagina 1.
 
+Ik heb ook gekeken of ik mijn experimeneten kon terug vind4en, maar ik had ze niet gepusht bij de song tekst. Im weet nog dat ik met regel hoogte wit ruimte en en plaatsing heb gewerkt.
+
 ### 23 okt
 
 Ik heb reduced motion toegevoegd aan de animaties.
