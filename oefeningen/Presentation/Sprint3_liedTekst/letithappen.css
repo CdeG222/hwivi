@@ -220,7 +220,7 @@ span {
 .terug-knop {
   position: relative;
   top: 5%;
-  left: calc(5% - 50vw + 10em);
+  left: 5%;
 
   text-align: center;
   text-decoration: none;
@@ -245,6 +245,7 @@ span {
 
   @media (width > 700px) {
     font-size: 25px;
+    left: calc(5% - 50vw + 13em);
   }
   button,
   summary {
