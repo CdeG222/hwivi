@@ -1,0 +1,513 @@
+/* MARK: fonts */
+@font-face {
+  font-family: "Seraphs";
+  src: url(../../../assets/type/SeraphsVF.woff2) format("woff2"); /* Modern Browsers */
+}
+html {
+  color-scheme: light dark;
+
+  --terugknop-background: light-dark(black, white);
+  --terugknop-text: light-dark(white, black);
+  --terugknop-hover: light-dark(rgb(62, 61, 61), rgb(219, 203, 203));
+  --focus: light-dark(black, yellow);
+}
+/* MARK: items */
+header {
+  top: 20%;
+  position: relative;
+}
+body {
+  display: grid;
+  justify-content: center;
+  font-family: "Seraphs", sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 64ch;
+}
+
+h1 {
+  font-size: clamp(26px, 10vw, 3em);
+  text-align: center;
+}
+
+strong {
+  /* letter-spacing: 0.5px;
+  word-spacing: 0.5px; */
+  font-size: 2.5em;
+  line-height: 1;
+  word-spacing: 5px;
+}
+
+div {
+  transform: translateY(-70em);
+  /* top: -30em; */
+  @media (width > 500px) {
+    transform: translateY(-35em);
+  }
+}
+p:nth-of-type(1) {
+  transform: skew(20deg, 5deg);
+}
+
+/* p:nth-of-type(2) {
+  transform: skew(20deg, -5deg);
+} */
+
+p:nth-of-type(4) {
+  transform: skew(20deg, 5deg);
+}
+/* p:nth-of-type(5) {
+  transform: skew(20deg, -5deg);
+} */
+
+p:nth-of-type(6) {
+  transform: skew(20deg, 5deg);
+}
+
+p {
+  font-size: clamp(16px, 4vw, 22px);
+}
+
+.Muziek-pauze {
+  span {
+    animation: none;
+  }
+  &:hover {
+    span {
+      animation-name: --scale;
+      animation-iteration-count: infinite;
+      animation-duration: 0.75s;
+      margin-left: 25px;
+      margin-right: 25px;
+      @media (prefers-reduced-motion) {
+        animation: none;
+      }
+    }
+  }
+}
+
+.vanish {
+  span {
+    animation: none;
+  }
+  &:hover {
+    span {
+      animation-name: --shrink;
+      animation-iteration-count: infinite;
+      animation-duration: 2s;
+      @media (prefers-reduced-motion) {
+        animation: none;
+      }
+    }
+  }
+}
+
+.Muziek-slow {
+  line-height: 2em;
+  text-align: center;
+}
+
+.Animation-slow {
+  animation-name: --Music-slow;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  font-size: 6em;
+  @media (prefers-reduced-motion) {
+    animation: none;
+  }
+
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.Muziek-slow {
+  margin: 2em;
+  line-height: 2em;
+  text-align: center;
+
+  animation-name: --text-move-animation;
+  animation-duration: 40s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  @media (prefers-reduced-motion) {
+    animation: none;
+  }
+}
+
+.Animation-fast {
+  animation-name: --Music-long;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  font-size: 6em;
+  @media (prefers-reduced-motion) {
+    animation: none;
+  }
+
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.Animation-slow2 {
+  animation-name: --Music-slow2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  font-size: 6em;
+  @media (prefers-reduced-motion) {
+    animation: none;
+  }
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.opacity-p {
+  opacity: 20%;
+}
+
+.p1 {
+  font-size: 14px;
+}
+.p2 {
+  font-size: 12px;
+}
+
+.p3 {
+  font-size: 10px;
+}
+
+.p4 {
+  font-size: 8px;
+}
+
+/* Bron is maarten van Poele hij heeft mij geholpen om dit te kunnen maken*/
+span {
+  display: inline-block;
+  animation-name: --wavy;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* Je kan dit gebruiken in plaats van al die :nth-of-type() */
+
+  /* Hier geef je elke sibling een delay van 0.1s. 
+    Sibling index begint op 1. Dus de eerste span.
+    Dan wordt de tweede span geselecteerd en krijgt dus een delay van 2 * 0.1s */
+  /* animation-delay: calc(sibling-index() * 0.1s); */
+
+  /* Als je de delay een negatieve waarde geeft, krijgt elke span een negatieve delay.
+    De animatie is dan al gestart als je de pagina inlaadt.*/
+  animation-delay: calc(sibling-index() * -0.1s);
+}
+
+@keyframes --wavy {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-16px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.terug-knop {
+  position: relative;
+  top: 5%;
+  left: calc(5% - 50vw + 10em);
+
+  text-align: center;
+  text-decoration: none;
+  color: var(--terugknop-text);
+  background-color: var(--terugknop-background);
+
+  border: solid 1px;
+  border-color: var(--knop-border);
+  border-radius: 10px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  &::before {
+    content: "←";
+  }
+  &:hover {
+    background-color: var(--terugknop-hover);
+  }
+
+  @media (width > 700px) {
+    font-size: 25px;
+  }
+  button,
+  summary {
+    cursor: pointer;
+  }
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  &:focus-visible {
+    border-radius: 3px;
+    outline: 0.2em dashed var(--focus);
+  }
+}
+
+@keyframes --Music-slow {
+  0% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+  }
+  12.5% {
+    font-variation-settings:
+      "wght" 110,
+      "SRFS" 15;
+  }
+  25% {
+    font-variation-settings:
+      "wght" 125,
+      "SRFS" 20;
+  }
+  37.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+  }
+  50% {
+    transform: skew(20deg, 5deg);
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+  }
+  75% {
+    transform: skew(20deg, 5deg);
+    font-variation-settings:
+      "wght" 160,
+      "SRFS" 40;
+  }
+  100% {
+    transform: skew(20deg, 5deg);
+    font-variation-settings:
+      "wght" 175,
+      "SRFS" 45;
+  }
+}
+
+@keyframes --Music-long {
+  0% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+  }
+  6% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+    transform: skew(20deg, 1deg);
+  }
+  12.5% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+    transform: skew(20deg, 3deg);
+  }
+  25% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+    transform: skew(20deg, 5deg);
+  }
+  25%,
+  50% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+    transform: skew(20deg, 5deg);
+  }
+
+  50% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 10;
+    transform: skew(20deg, -10deg);
+  }
+  62.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 0;
+    transform: skew(20deg, 5deg);
+  }
+  75% {
+    font-variation-settings:
+      "wght" 200,
+      "SRFS" 15;
+    transform: skew(20deg, -25deg);
+  }
+  90% {
+    transform: skew(20deg, 15deg);
+    font-variation-settings:
+      "wght" 115,
+      "SRFS" 10;
+  }
+  100% {
+    transform: skew(20deg, 25deg);
+    font-variation-settings:
+      "wght" 130,
+      "SRFS" 20;
+  }
+}
+
+@keyframes --Music-slow2 {
+  0% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 60;
+    transform: skew(20deg, 25deg);
+  }
+  12.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 15;
+    transform: skew(-20deg, -25deg);
+  }
+  25% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 60;
+    transform: skew(20deg, 25deg);
+  }
+  37.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+    transform: skew(20deg, -25deg);
+  }
+  50% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 60;
+    transform: skew(20deg, 25deg);
+  }
+  62.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+    transform: skew(20deg, -25deg);
+  }
+
+  75% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 60;
+    transform: skew(20deg, 25deg);
+  }
+  87.5% {
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 30;
+    transform: skew(20deg, -25deg);
+  }
+  100% {
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 60;
+    transform: skew(20deg, 25deg);
+  }
+}
+/* Move animatie is van sanne rotate is van mij */
+
+@keyframes --text-move-animation {
+  0% {
+    translate: calc(-50cqw - 50%);
+  }
+  12% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  37% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  62% {
+    transform: rotate(60deg);
+  }
+  75% {
+    transform: rotate(75deg);
+  }
+  87% {
+    transform: rotate(90deg);
+  }
+  100% {
+    translate: calc(50cqw + 50%);
+    transform: rotate(105deg);
+  }
+}
+
+@keyframes --scale {
+  0% {
+    scale: 1;
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+  }
+
+  25% {
+    scale: 2;
+    font-variation-settings:
+      "wght" 125,
+      "SRFS" 0;
+  }
+  50% {
+    scale: 3;
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 0;
+  }
+  75% {
+    scale: 4;
+    font-variation-settings:
+      "wght" 175,
+      "SRFS" 0;
+  }
+  100% {
+    scale: 5;
+    font-variation-settings:
+      "wght" 200,
+      "SRFS" 0;
+  }
+}
+
+@keyframes --shrink {
+  0% {
+    scale: 1;
+  }
+
+  25% {
+    scale: 0.75;
+  }
+  50% {
+    scale: 0.5;
+  }
+  75% {
+    scale: 0.25;
+  }
+  100% {
+    scale: 0;
+  }
+}

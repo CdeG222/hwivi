@@ -6,62 +6,98 @@
     <meta name="author" content="jouw naam" />
     <meta name="color-scheme" content="dark light" />
 
-    <title>Digital garden van ...</title>
-    <link rel="stylesheet" href="./css/normal.css" />
+    <title>Digital garden van Casper de Graaff</title>
+    <link rel="stylesheet" href="assets/style/normal.css" />
+    <script src="./script.js" defer></script>
 
     <!-- Importeer het webring component, voeg jouw eigen domein toe in data-page -->
     <script
       data-page="https://example.com"
-      src="https://digitaaltuintje.nl/webring.js"
+      src="http://digitaaltuintje.nl/webring.js"
       defer
     ></script>
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <!-- <style>
+      body {
+        background-image: url("/assets/images/Huis-licht_result.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style> -->
   </head>
-  <body>
-    <header>
-      <h1>Digital garden van ...</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="https://github.com/account/repo">Learning Log</a></li>
-        </ul>
-      </nav>
-    </header>
 
+  <body class="home">
     <main>
-      <article>
-        <h2>Een titel</h2>
+      <header>
+        <h1 class="home-h1">Kat & zo</h1>
+        <!-- <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://github.com/account/repo">Learning Log</a></li>
+          </ul>
+        </nav> -->
+      </header>
 
-        <p>Alinea...</p>
-      </article>
+      <!-- https://www.youtube.com/watch?v=GH1N2m75eE4 Aria uitleg -->
 
-      <article>
-        <h2>Nog een titel</h2>
+      <button commandfor="mydialog" command="show-modal">
+        <img src="assets/images/Cookie.png" alt="Knop naar cookies" />
+      </button>
 
-        <p>Nog een alinea...</p>
-      </article>
+      <dialog id="mydialog">
+        <form method="dialog">
+          <p>
+            Omdat deze website github gebruikt moeten we deze gegevens
+            verzamelen voor <em>microsoft</em> dit is standaard.
+          </p>
+          <ul>
+            <li>
+              Uw <em> IP-adres </em> en ongeveer <em> locatie </em> afgeleid
+              hieruit Browser
+            </li>
+            <li>Welk <em>apparaat</em> u gebruikt</li>
+            <li>Uw <em>besturingssysteem</em> en technische identificaties</li>
+            <li>Uw Opgevraagde URL's/pagina's die u gebruikt</li>
+            <li>
+              <em
+                >Interactie- en gebruiksgegevens Prestatie, beveiligings- en
+                foutgegevens Cookies </em
+              >, vooral als je bent ingelogd bij GitHub of toestemming geeft
+              voor extra analysecookies.
+            </li>
+          </ul>
+          <button
+            class="accepteer-knop"
+            onclick="setCookie()"
+            aria-label="Accepteer cookies"
+          >
+            Accepteer cookies
+          </button>
+          <a
+            class="weiger-knop"
+            href="https://www.google.com"
+            aria-label="Weiger cookies"
+          >
+            Weiger cookies</a
+          >
+        </form>
+      </dialog>
+      <a class="kat-link" href="Waarom_een_kat.html">
+        <img
+          src="assets/images/Domestic-Cat.png"
+          alt="Knop naar 'blog' over kat"
+        />
+      </a>
+      <a
+        class="spring-kat-link-naar-muziek"
+        href="oefeningen/Presentation/Sprint3_liedTekst/Muziek_typografie_interpitatie.html"
+      >
+        <img
+          src="assets/images/Kat-spring.png"
+          alt="Knop naar muziektekst interpitatie"
+        />
+      </a>
     </main>
-
-    <footer>
-      <nav>
-        <button commandfor="cookieModal" command="show-modal">
-          <span>Allow cookies?</span>
-        </button>
-      </nav>
-    </footer>
-
-    <dialog id="cookieModal">
-      <form method="dialog">
-        <p lang="en">
-          We use cookies to personalise content and ads, to provide social media
-          features and to analyse our traffic. We also share information about
-          your use of our site with our social media, advertising and analytics
-          partners who may combine it with other information that you’ve
-          provided to them or that they’ve collected from your use of their
-          services.
-        </p>
-        <button onclick="setCookie()">Allow</button>
-        <button onclick="unsetCookie()">Deny</button>
-      </form>
-    </dialog>
   </body>
 </html>

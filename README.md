@@ -1,1 +1,887 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
+
+## Spellingsfouten
+
+Sorry voor de spellingfouten.
+
+### 27 okt
+
+Ik heb de meest probelem gefixt denk ik zelfs de cookie img!
+
+Ik heb een hover/scale animatie gemaakt
+
+![Animatie-code](img-readme/Code-hover.png)
+Animatie code
+
+Ik heb express niks anders erbij gedaan behalve typografie om te laten zien wat ik er mee kan.
+
+Hellaas werkt de cookie img verandering niet bij de website, maar wel met go live. Ik weet niet waarom, maar ik weet wel dat het een probleem is. Ik kan er alleen niks aan doen.
+
+De terug knoppen zijn nu wat meer gelijk aan elkaar.
+
+De kat in scherm 2 is nu niet meer over de tekst of andere knoppen.
+
+Ik denk niet dat een scrol animatie veel zou toevoegen bij de tekst daarom ga ik het niet doen.
+
+De terug knop blijft nu in de hoek, Ik weet dat de header niet groot genoeg ervoor was, maar veel spullen breken als ik dat aanpas en dit werkt ook goed.
+
+Ik heb een verkleinings animatie ingevoegd bij de song tekst, en reduced motion overal op gezet.
+
+Ik weet dat focus niet het beste is bij pagina 2, maar dit is het best wat ik kon doen zonder de afbeelding normaal te breken.
+
+## Commit
+
+Ik had per ongeluk de hele commit gereset ik schrok me rot gelukkig kon ik alles terug krijgen
+
+### 26 okt
+
+Mogenlijkheden song tekst:
+Scale, hover en mischien scrol
+
+![Feeback-studenten-einde](img-readme/Feedback-studenten-eindsprint.png)
+Feedback van studenten
+
+Ik ben het eens met de feedback die ik heb gekregen en ga die toepassen, Focus state moet beter. En Ik ga overbodige code verwijderen.
+
+![Feeback-studenten-webby](img-readme/Retrospective-feedback.png)
+
+![Feeback-studenten-webby](img-readme/Retrospective-feedback2.png)
+Webby formulier
+
+Ik ga de regel afstand checken.
+
+To do:
+
+kat fixen op pagina 2
+
+song tekst mischien iedergeval dingen proberen.
+
+### 25 okt
+
+Ik had hellaas niet genoeg tijd om veel aan de song tekst aan te passen, maar als ik meer tijd had zou ik de tekst meer animatie hebben gegeven, de p tekst zou ik dan meer wavy achtig hebben gemaakt.
+
+Ik heb het refrein geanimeerd om te draaien, want zo voelt het refrein een beetje ik heb het geprobeerd om zo rustig mogenlijk te maken.
+
+### 24 okt
+
+![Schets-pagina-2](img-readme/Schets-pagina2.png)
+Schets voor nieuwe layout ivm samenhang
+
+Het plan is om de kat waar je op geklikt heb terug te halen in de pagina. Verder ga ik ook de kleuren lichter houden om de thema's hetzelfde te houden.
+
+Ik heb nu de cookie en kat terug gehaald op pagina 2 ik ga de kat op een net zetten zoals pagina 1.
+
+Ik heb ook gekeken of ik mijn experimeneten kon terug vinden, maar ik had ze niet gepusht bij de song tekst. Im weet nog dat ik met regel hoogte wit ruimte en en plaatsing heb gewerkt.
+
+Ik heb elemeten terug gehaald van de eerst pagina om de 2 pagina' s meer samen hang te geven. Ik weet niet of ik ook een afbeelding in pagina 2 kan doen, want die zou te klein zijn en het zou minder goed leesbaar zijn. Ik heb de kleueren wel meer op pagina 1 gebaseerd, dus het zou iets beter moeten zijn.
+
+Het is gelukt om de afbeelding van het vorige scherm in het tweede scherm te zetten zonder dat er een zwarte balk is.
+
+Het is nu erg goed samenhang gezien :)
+
+Alleen de focus op cookie en kat doen het niet goed.
+
+![After](img-readme/After.png)
+![Before](img-readme/Before.png)
+Before en after.
+
+Er is een probleem in de CSS die ik niet snap,
+het is niet blij met een "(" en ik snap niet waarom.
+
+Ik had geen color voor var daarom had ik een error
+
+### 23 okt
+
+Ik heb reduced motion toegevoegd aan de animaties.
+
+Student-assistent heeft mij geholpen met de knoppen in de dialog en de font.
+
+## Retrospective
+
+![Retrospective-3](img-readme/Retrospect3-1.png)
+![Retrospective-3](img-readme/Retrospect3-2.png)
+![Retrospective-3](img-readme/Retrospect3-4.png)
+![Retrospective-3](img-readme/Retrospect3-3.png)
+Retrospective 3
+
+3 en 4 zijn verkeerd gelabeld het staat in de goed volgorde.
+
+Ik heb een variable font gevonden, maar die is betaald, hier zou ik scherm 2 leuker kunnen maken door een kat erop te animeren met een aside. Im ga alleen niet 25 euro daarvoor betalen.
+
+![Font](img-readme/Font-25.png)
+Font uitleg
+
+## Vragenlijst voor 23 okt
+
+- Vraag over het font probleem met de kat
+- Vraag waarom kleur op h1 het niet doet
+- Vraag waarom ik geen balk kan maken
+
+### 22 okt
+
+Ik zou niet weten waarom ik de kleur van home h1 niet kan aanpassen.
+
+De titel blijft nu gecentreerd, ook als het scherm groter wordt.
+
+Dit staat van meest recent naar minst recent op deze datum. Notitie gezien.
+
+Ik heb de typografie van de blog aangepast om de hierarchie duidelijker te maken. Ikm heb de grid aangepast om het op kleinere schermen beter leesbaar te maken.
+
+De kat font werkt niet dus kan ik het helaas niet leuker maken.
+
+Ik ga hier morgen verder naar vragen.
+
+Ik heb de muziek tekst meer aandacht gegeven en het meer op de muziek laten lijken
+
+Ik heb meer animatie ern gestopt om het tempo van het muziek aan te houden.
+
+Nth of type werkt niet op de h3 dus is ga een class gebruiken.
+
+Ik heb voor een uur geprobeerd om een font te laten werken en heb verschillende kat fonts geprobeerd werkend te krijgen helaas werkt het niet. Dus ik ga wat anders proberen.
+
+Ik voel me ziek, maar moet door.
+
+Ik heb Aria labels toegevoegd om de knoppen op een screenreader duidelijker te maken.
+
+### 21 okt
+
+Bi-weekly-geek-3
+
+![Bi-Weekly_geek](img-readme/Bi-weekly-geek3.jpeg)
+Bi weekly geek 3
+
+De thema's in pagina 2 zijn gebaseerd op de katten in de foto.
+
+Ik ben fucked.
+
+Ik moet, Font invoegen.
+Knoppen navigatie aanpassen in pagina 2.
+
+Screenreader vriendelijk maken?
+
+Sanne heeft mij geholpen met de plaatsingvan de katten ik heb nu verschillende problemen opgelost.
+
+Sanne heeft ook geholpen met het maken van de animatie.
+
+Het plaatje van alle 3 beoordelingen zijn helaas kwijt. Dus ik heb alleen die van mij.
+
+![Peer-Feedback](img-readme/Peerfeedback1.png)
+![Peer-Feedback](img-readme/Peerfeedback2.png)
+Feedback van studenten
+
+### 20 okt
+
+Ik heb de song text aangepast ga hulp nodig hebben met:
+
+Terug knop song text.
+
+plaats van kat en animatie home pagina.
+
+### 19 okt
+
+todo
+Pas afbeeldingen met % aan bv: top 50%
+
+inplaats van 100 media queries en wanneer de achtergorond afbeelding schaaalt moet de afbeelding meeschalen
+
+daarna song tekst maak begin minder saai.
+
+Typografie mischien, daarna meer toevoegen.
+
+feedback mijzelf en studenten
+![Deepdive](img-readme/Feedback-studenten.png)
+Feedback van studenten
+
+![Deepdive](img-readme/Webby.png)
+Webby formuliet sprint 3
+
+Ik heb tot nu toe alle deepdive gedaan!
+![Deepdive](img-readme/Deepdive1.png)
+![Deepdive](img-readme/Deepdive2.png)
+![Deepdive](img-readme/Deepdive3.png)
+![Deepdive](img-readme/Deepdive4.png)
+![Deepdive](img-readme/Deepdive5.png)
+Deepdives die ik gedaan heb
+
+Het was een simpel probleem met de background img nu nog de rest.
+
+Ik ben bezig met responsiveness, ik denk dat ik de animatie ga schrappen omdat het waarschijnlijk niet gaat lukken om die op tijd af te kunnen maken.
+
+### 18 okt
+
+Alles is stuk...
+Ik weet niet wat ik moet doen..
+waarom is de abckground img weg. waarom is op pagina 2 alles de verkeerde kant
+
+Ik heb pagina 2 gefixt. Ik weet niet waarom de eerste stuk is ik ga morgen hulp vragen.
+
+### 17 okt
+
+Ik ben weer ziek ik ben 2 dagen niet ziek geweest, maar ik ga proberen om zoveel mogelijk te doen.
+
+### 16 okt
+
+animatie maken gestart.
+
+### 15 okt
+
+Feedback verwerkt.
+
+### 7 okt
+
+Ik heb met hulp van maarten mijn visie kunnen uitvoeren voor de tekst. Ik heb ook geprobeerd om de tekst te animeren door het wavy te maken met deze bron: https://www.geeksforgeeks.org/web-templates/how-to-make-a-vertical-wavy-text-line-using-html-and-css/
+
+Het is gelukt om de titel wavy te maken, maar toen ik het te probeerde animeren. was de titel naast de tekst.
+
+Met hulp van maarten is de wavy animatie gelukt!
+![Sprint3-code_typografie](img-readme/wavy-animatie.png)
+Gelukte animatie code
+
+## checkout
+
+- Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
+
+Het creërt logica in tekst het zorgt ervoor dat tekst op een logische plaats te vinden is.
+
+- Noem drie manieren om chaos in je ontwerp te voorkomen.
+
+Hierarchie, grid en een maximaale breedte.
+
+- Hoeveel gekkigheid moet er in je werk zitten?
+
+Ligt eraan wat je wilt ontwerpen. Alles mag.
+
+### 6 okt
+
+Ik heb geprobeerd om tekst over elkaar te zetten door tekst kleiner en groter te maken en de text met een div over de ander tekst te zetten. Ik heb line height geprobeerd wat niet werkte ik heb measure geprobeerd wat niet werkte.
+
+Ik weet niet wat ik nog kan doen
+![Sprint3-code_typografie](img-readme/Code_letithappen.png)
+Code van let it happen die het niet doet
+
+Het is wel gelukt om een deel van mijn schets uit te werken ik weet niet hoe ik het andere kan uitwerken :(
+
+![Sprint3-code_typografie](img-readme/Code_letithappen2.png)
+Deel van schets uitgewerkt
+
+### 5 okt
+
+![Sprint3-schetsen typografie](img-readme/8:10_schetsen.jpeg)
+![Sprint3-schetsen typografie](img-readme/2:10_schetsen.jpeg)
+10 schetsen voor let it happen
+
+## feedback
+
+Wat wil je bij de kijker bereiken met je vormgeving?
+
+-Ik wil laten zien hoe het lied voelt om te luisteren.
+
+Hoe voegt jouw opzet iets toe aan de tekst?
+
+Het laat zien heo het lied voelt in tekst vorm.
+
+Wat is een volgende stap: welke schets vind je het meest geschikt om digitaal uit te werken?
+
+De laatste vorm
+
+Hoe zou je dit kunnen aanpakken in code? (vraag hulp wanneer je het niet zeker weet)
+
+Line-height
+letter-spacing
+word-spacing
+
+# checkout
+
+- Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben)
+
+Ik heb geen idee, ik zoek het op.
+
+Kerning
+Kerning is letterspacing tussen 2 letters.
+
+Tracking
+Tracking is letterspacing in een woord. de afstand tussen alle symbolen in een font.
+
+Leading
+Leading is lineheight, dit betekend dat de afstand tussen de regels groter worden.
+
+Flush-left
+text naar de linkerzijde van het scherm
+
+Flush-right
+text naar de rechterzijde van het scherm
+
+Centered
+Gecentreerde text
+
+Justified
+Text is naar links, met letter-spacing en word spacing aangepast
+
+Indent
+beschrijft een leeg plaats voor of na een stuk tekst.
+
+Outdent
+
+Modular scale
+tekst groote aanpassen aan scherm grote.
+
+Movable type
+Beweegbare componenten
+
+Focus point
+
+Vijf soorten contrast
+
+Spatial tension
+Hoe groot een tekst deel is?
+
+Degene die leeg zijn kon ik niet vinden, sorry.
+
+- Wat is jouw ideale regellengte (measure)? Leg uit waarom.
+
+8px, omdat het fijn is om te lezen en je kan het handig aanpasen.
+
+- Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?
+
+spacing, want dan kan ik ook het fijn voor de gebruiker om te lezen.
+
+### 2 okt
+
+Ik heb een paar datums verkeerd hieronder in mijn read-me en ik weet niet welke dus datum informatie kan incorrect zijn, sorry hiervoor.
+
+## Feedback:
+
+met tab speel hover effect
+verduidelijk de knop
+
+typografie aandacht aan besteededen voor pagina 2
+
+Kat knop position relative/ absolute inplaats van @media
+
+## retrospect
+
+![Sprint2-retro](img-readme/Tekeningen-sprint2.jpeg)
+
+![Sprint2-retro](img-readme/Daltekening-sprint2.jpeg)
+
+![Sprint2-retro](img-readme/Schets-sprint2-versie1.jpeg)
+![Sprint2-retro](img-readme/Schets-sprint2-final.jpeg)
+retrospective sprint 2
+
+Eindresultaat van metafor de dingen die in mijn daltekening staan zitten in mijn spinnen web met het hoog laag niveau.
+
+Ik bleef veel vast zitten deze week daarom het spinnenweb en het is een woord grap met "webby".
+
+### 1 okt
+
+- Screenreaders kunnen de afbeeldingen nog niet lezen.
+
+Dit is volgens mij gefixt. De knoppen hebben een descriptie waar de screenreader het kan lezen.
+
+### 31 sept
+
+Screenreader gaat relatief goed makkelijk te navigeren.
+
+WCAG lijst
+
+- HTML had errors.
+  Ik heb de onnodige code wegehaalt en namen verduidelijkt.
+
+- Titel van beide pagina's waren hetzelfde
+  Ik heb beide pagina's een andere titel gegeven.
+
+- lang was niet Nl
+  Ik heb lang NL gemaakt
+
+- Terug was een button in een a
+  ik heb het een a gemaakt en gestijlt om op een knop te lijken om terug te kunnen naar home.
+
+- Buttons moeten groter voor mobiel
+  Ik heb verschillende knoppen groter gemaakt zodat ze duidelijker zijn.
+
+- Heading van pagina 2 had geen H1
+  Ik heb pagina 2 een H1 gegeven.
+
+- De kat en cookies afbeeldingen zijn decoratief, maar hebben een alt.
+  Ik heb de alt weggehaald.
+
+- Focus deed gek met de kat, omdat de a en img op een ander plek stonden.
+  Ik verplaats nu de a inplaats van img.
+
+- Ik heb nog geen skip link voor mijn pagina
+  Ik heb een skip link gemaakt en gestijld
+
+- Ik heb nog geen high contrast mode voor mijn pagina
+  Ik heb zelf een high contrast mode aangemaakt
+  ![Contrast](img-readme/Contrast-example.png)
+  contrast mode
+
+- H1 op op pagina 1 had nog geen goed contrast
+  Ik heb de H1 op pagina 1 een background gegeven.
+
+- Screenreaders kunnen de afbeeldingen nog niet lezen.
+
+## Check-out
+
+- Waar staat WCAG en A11y voor?
+
+- Wat vind je lastiger, je laptop/websites alleen met een toetsenbord bedienen of met een screenreader? Waarom? Waar moet je nog mee oefenen?
+
+Met de screenreader, want die doet moeilijker met bewegen an header naar main bijvoorbeeld.
+
+- Met welke beperking rekening houden vind je het meest lastig?
+  Vind je dat je beperkt wordt in wat je kunt ontwerpen?
+  Of heb je al manieren gevonden om vanuit een solide basis - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
+
+Ik vindt dat designen voor mensen met beperkingen belangrijk is, maar dat het je wel limiteerd als designer.
+
+### 29 sept
+
+Het is gelukt om grotendeels de pagina te laten werken en ik denk dat het test klaar is, ik vindt het jammer dat ik niet meer had kunnen bijvoegen. Ik had ook een collage kat willen maken, maar dat moet later.
+
+### 27 sept
+
+Bi-weelky-geek
+
+![Bi weelky geek](img-readme/Bi-weekly-geek-2-1.png)
+![Bi weekly geek](img-readme/Bi-weekly-geek-2-2.png)
+Bi weekly geek 2
+
+screenreader
+
+![Screenreader](img-readme/Screenreader-opdracht.png)
+Screen reader opdracht
+
+Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?
+
+Dat de UX het belangrijkste is van het vak.
+
+Wat voor type beperkingen hebben invloed op het gebruiken van websites?
+
+zicht, motroiek, mentaal en gehoor.
+
+Noem drie manieren om door een website te navigeren met jouw screenreader.
+
+met control option en pijlen,
+control u
+
+en shift tab.
+
+Ik heb gebprobeerd om de cookie een cookie img te maken maar dat werkte niet.
+en dan de cookie te veranderen van plaatje als je op de accepteer drukt.
+
+### sept 26
+
+Veel ingevoegt kat knop naar pagina cookie is cookie kat aan schermen aangepast. Maar veel werkt nu niet meer.
+
+### sept 25
+
+Design verbeteren, dat is achteruit gegaan, Ik ga schetsen om het te verbeteren. Maak het leuk voor de gebruiker om te lezen.
+
+Favicon voor icoon en title.
+
+Wat is HTML validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgevoerd?
+
+Dat je HTML code netjes en leesbaar is.
+
+Welke dingen vielen je op?
+
+Dat het ok is.
+
+Welke feedback heb je ontvangen tijdens het gesprek met je docenten?
+
+Heb ik hierboven opgeschreven.
+
+### sept 24
+
+Ik heb vandaag de pagina een nieuwe img gegeven met light dark nog niet dezelfde groote werk eraan. Ik heb geprobeerd een modeless dialog te maken, maar dat werkt nog niet.
+
+![Digital garden aanpassingen](img-readme/Voorbeeld.png)
+Aanpassingen aan garden
+
+### sept 23
+
+Ik heb een plan voor de Human Consent Component ik ga ze in een knop of pop up maken
+
+Wat is een wireflow en wat heb je er aan?
+
+Een wireflow is een schets die een process laat zien.
+
+Wat zijn dark UX patterns? Geef drie voorbeelden...
+
+Dark UX paterns zijn patronen die de gebruiker verleiden om iets te doen wat de gebruiker waarschijnlijk niet zou doen.
+
+Price comperison, hidden costs en FOMO
+
+Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
+
+Dat het de gebruiker goed informeerd en hun een keuze geeft.
+
+![Cookie schets](img-readme/cookie-schets.png)
+Schets hoe ik de cookie wil
+
+### sept 21
+
+Verse start voor nieuwe web pagina ik ga het kleiner doen en strict aan de opdracht proberen te houden
+
+Wat zijn HTML landmark role elements?
+Dan kan je makkelijk in de scrol map vinden waar je lementen heb gezet
+
+Wat zijn heading elementen en hoe horen deze 'genest' te worden?
+elementen van andere HTML die je in CSS aanpast in bv de header om die specefiek aan tepassen en niet op de hele pagina.
+
+![Cookie formulier](img-readme/cookie.png)
+Formulier over consent notice
+
+### 18 sept
+
+Oriënteren en begrijpen
+
+Vragen en termen
+
+1. Waarom geven de docenten deze opdracht?
+
+Docenten geven een opdracht altijd met een reden. Ze willen dat je iets specifieks leert, iets wat je nu nog niet kunt. Je kunt een docent zien als een opdrachtgever. Ook bij een opdrachtgever wil je er achter komen waarom die deze opdracht geeft. Het is altijd een goed idee om te blijven vragen tot je het begrijpt.
+
+- De docenten geven mij deze opdracht om mij te leren hoe ik de basis van een webpagina kan maken.
+
+2. Welke technieken gebruik ik?
+
+Een van de belangrijkste leerdoelen van dit blok is het leren van HTML en CSS zodat je een betere digitale ontwerper wordt. Je kan er vanuit gaan dat HTML en CSS een belangrijke rol spelen in de opdracht.
+
+- Ik gebruik: light-dark, -- properties en grids.
+
+3. Wat zijn de randvoorwaarden?
+
+Naast de gebruikte techniek zijn er eigenlijk altijd ook andere randvoorwaarden. Zorg er voor dat je die goed voor ogen hebt. Bijvoorbeeld: hoe veel tijd heb je? Wat is je kennis tot nu toe? Maar ook: is mijn ontwerp wel toegankelijk? voldoet het aan de privacy-wetgeving? En ook: is mijn ontwerp wel echt webby of maak ik een plaatje van een website?
+
+- Een werkende webby website met toegankelijk features en genoeg content.
+
+4. Waar gebruik je HTML/CSS voor?
+
+Wees je bewust van de mogelijkheden en de onmogelijkheden van HTML en CSS. HTML is om content te structureren en om interactie mogelijk te maken. CSS is om vorm te geven, om dingen te verduidelijken, en om interactie prettiger te maken.
+
+- Je gebruikt HTML voor tekst schrijven en knoppen maken, je gebruikt CSS om stijl aan te passen.
+
+5. Wat kan er allemaal met CSS?
+
+Niemand weet wat er allemaal kan met CSS, er kan zoveel, steeds meer, en nog niet alles is ontdekt. Maar je kan wel een heel goed beeld krijgen van wat er allemaal ongeveer kan. Je kan op allerlei manieren dingen layouten, je kan eindeloze hoeveelheden visuele effecten toepassen, en je kan op talloze manieren dingen laten animeren. Je hoeft natuurlijk niet alles te kunnen, daar is dit blok veel te kort voor, maar het is wel lang genoeg om te zien wat er allemaal kan. Dan kan je kiezen wat je wil gaan leren, zowel tijdens het blok als daarna.
+
+Verbeelden en conceptualiseren
+
+Vragen en termen
+
+1. Lukt het om verschillende ideeën te bedenken?
+
+Het is meestal een goed idee om eens een paar verschillende mogelijke oplossingsrichtingen te onderzoeken. Dat kunnen bijvoorbeeld een paar schetsjes zijn. Maar er zijn natuurlijk ook een heleboel andere mogelijke creatieve onderzoeksmethoden.
+
+- Ja, maar ik hebt moeite om soms van een idee af te zetten.
+
+2. Lukt het om je ideeën te schetsen?
+
+Door je ideeën te schetsen krijg je nieuwe inzichten. Als je het voor je ziet zie je dingen die je in je hoofd niet ziet. Door er fysiek aan te werken kom je ook details tegen die je in je hoofd wellicht over het hoofd ziet. En door het te schetsen kan je het delen. Je kan medestudenten, of docenten, vragen wat zij er van vinden en dan krijg je ook hun ideeën er gratis bij!
+
+- Ja, door crazy-8 lukt het om ideeen te kunnen schetsen.
+
+3. Wat doet deze CSS-property?
+
+Spelen met materiaal is ook een manier om op nieuwe ideeën te komen. Een geweldig variable font kan je ineens een heel nieuw idee geven. Spelen met CSS-gradients kan je een onverwachte vormgevingsrichting opsturen. Spelen met CSS animaties en transities kan je nieuwe ideeën geven over hoe de interactie moet werken. Etc.
+
+- ??
+
+4. Welke content, en welke HTML heb ik nodig?
+
+Een andere goede manier om op nieuwe ideeën te komen is door eens goed naar de inhoud te kijken: wat moet er ongeveer op deze pagina komen? Alleen tekst? Afbeeldingen? Wat voor interactie? Is een header met een navigatie echt nodig? Is het een lijstje met dingen? Of is het eigenlijk één lang artikel?
+
+- ???
+
+5. Hoe kan ik dit soort content vormgeven?
+
+Kale HTML is lelijk. Met CSS kan je het mooi maken. En dat kan op alle mogelijke manieren. Je kan dingen onder elkaar zetten, naast elkaar of achter elkaar. Je kan dingen in een keurig grid zetten of in een chaotische flexbox-layout. Je kan hysterische kleuren gebruiken of een ingetogen minimalistische stijl kiezen. Je moet nadenken over verschillende manieren hoe jouw gebruikers jouw website willen bedienen.
+
+- ????
+
+6. Wat als ik hier nu eens 1000 invul?
+
+We zijn eigenijk best vaak voorzichtig. Onze ontwerpen zijn dus ook vaak nogal subtiel. Dan denken we een zeer expressief ding gemaakt te hebben, maar het valt niemand echt op. Probeer dus ook eens 1000 in te vullen, in plaats van 1.1. Dingen worden dan niet alleen enorm onsubtiel, maar er gebeuren ook dingen die je niet van tevoren kunt bedenken. Ook dat hoort natuurlijk bij verbeelden en conceptualiseren.
+
+- ????????
+
+Prototypen en uitwerken
+
+Vragen en termen
+
+1. Begrijpen bezoekers de site?
+
+De enige echte manier om er achter te komen of bezoekers jouw site wel begrijpen is door een werkend prototype te maken. Door dit prototype met HTML en CSS te maken kan je op een heel ander detailniveau testen.
+
+- Nee, want de site is nog niet af. de gebruiker weet niet waar de site over gaat.
+
+2. Wat vindt de opdrachtgever er van?
+
+Jouw bedoelingen worden veel duidelijker met een werkend prototype. Dat kan om een klein werkend detail gaan, of om een gehele pagina.
+
+- De opdrachtgever vondt de site niet af, wat logisch is. De content die er was was ook niet goed genoeg.
+
+3. Werkt dit wel?
+
+Vaak verzinnen we dingen die niet kunnen, of die heel moeilijk te maken zijn. Daar kom je vaak pas achter als je gaat bouwen. Wacht dus vooral niet te lang, je wil er niet in de laatste week achter komen dat iets niet kan.
+
+- Mijn idee werkte niet. Het was veel te veel voor 2 weken. Im moet meer focusen.
+
+4. Oooooh, kan dit óók?!
+
+Tijdens het maken kom je vaak ook op hele nieuwe ideeën. Door een CSS techniek te gebruiken kom je er achter hoe die werkt, en kom je er achter dat je er nog veel meer mee kunt doen. Je leert dit soort technieken veel beter door ze echt toe te passen, dan zit het meteen in je vingers.
+
+- Is dit een vraag?
+
+Evalueren
+
+1. Reflecteren met the riddle:
+
+Een goede manier om bewuster te reflecteren is door je telkens deze vier vragen te stellen: (1) wat wilde ik weten? (2) wat deed ik om er achter te komen? (3) wat was het resultaat? (4) wat weet ik nu (niet)?
+
+- 1. Ik wilde weten of ik een website kon maken.
+  2. Ik probeerde om een website te bouwen en nieuwe technieken te gebruiken
+  3. Het resultaat was dat ik een te ambitieus project ondernam.
+  4. Ik weet dat ik een gefocust website moet maken met de tijd die ik heb 2 weken (ik dacht dat we 6 weken kregen).
+
+2. Wat wil(de) ik weten/bereiken?
+
+Deze vraag kan je je na elke activiteit even stellen. Waarom ging ik dit ook al weer doen? Wat wilde ik bereiken? Of wat ging ik ook al weer onderzoeken? En waarom wilde ik dit ook al weer weten?
+
+- Ik wou een leuke website maken, met een intressante feature.
+
+3. Wat heb ik gedaan?
+
+Tijdens je creatieve proces, of tijdens je creatieve onderzoek doe je dingen. Je doet dingen als code typen, schetsen maken, bronnen bestuderen, etc. Het is goed om achteraf altijd even bewust terug te kijken naar wat je allemaal gedaan hebt. Je kan je dan afvragen wat goed werkte, en wat minder goed, en dan kijken of je daar goede redenen voor kunt verzinnen.
+
+- Ik heb een site met 5 knoppen gemaakt met een achtergrond die matcht.
+
+4. Wat was het resultaat?
+
+Nadat je iets hebt gedaan heb je resultaat. Sommig resultaat is heel tastbaar: je hebt een aantal schetsen, je hebt een stuk code geschreven, je hebt oefeningen gedaan, je hebt een prototype getest etc. Maar ook heb je dingen die minder tastbaar zijn, maar ook heel belangrijk: je hebt bijvoorbeeld nieuwe, verschillende inzichten na een schetsoefening. Je hebt kennis vergaard over een bepaalde CSS-techniek. Je hebt bewijs dat een bepaald ontwerpdetail (niet) goed werkt. Door je bevindingen expliciet te benoemen word je je hier bewuster van, en kan je van de verschillende oefeningen beter op waarde schatten.
+
+- Het duurde te lang om te maken en de plaatjes bewegen en het adaptief maken duurde te lang.
+
+5. Wat weet je nu (niet)?
+
+Nadat je iets hebt gedaan weet je dingen. Maar je bent je ook bewuster van wat je nog niet weet. Je weet bijvoorbeeld hoe je een responsive menu maakt met flexbox, maar je weet ook dat je flexbox nog niet helemaal begrijpt. Of je weet dat uit een user-test bleek dat een bepaald concept onduidelijk is, maar je weet nog niet hoe je dit wel duidelijk moet maken. Dus: wees je bewust van wat je hebt geleerd, en van wat je nog wil leren.
+
+- Ik weet nog niet hoe je goed kan bug checken en hoe je iets effiecent kan maken met code.
+
+6. Wat vond je (niet) leuk?
+
+Door dingen te doen kom je er achter of je iets wel of niet leuk vindt. Je kan bijvoorbeeld denken dat je code schrijven niet leuk vindt, maar het komt best vaak voor dat je er ineens achter komt dat je CSS echt een hele leuke vormgevingstaal vindt. Daar kom je alleen achter door het te doen. Het is prettig voor jezelf om te weten wat je wel en niet graag doet. Maar dat weet je pas echt als je het vaak genoeg geprobeerd hebt.
+
+- De-bugging
+
+7. Voldoet het nog aan de eisen?
+
+Elke opdracht heeft bepaalde voorwaarden en beperkingen. Soms wijk je daar, zonder dat je het door hebt, tijdens het werken van af. Stel je dus regelmatig de vraag of datgene wat je aan het doen bent wel datgene is wat er moet gebeuren. Hoe eerder je er achter komt dat dat niet zo is, hoe minder vervelend het is. Een uurtje afdwalen is veel minder erg (en vaak zelfs onverwacht goed) dan een hele week weggooien. Bekijk nog eens de randvoorwaarden bij deze sprint en verhoud je daar toe.
+Er zijn een aantal regels waar jouw site de komende sprints steeds meer aan gaat voldoen, wellicht kan je hier nu al op reflecteren.
+
+- Mijn opdracht voeldoet niet aan de eisen, omdat ik dacht dat ik nog meer tijd had.
+
+8. HTML validatie
+
+Is de HTML die je hebt geschreven nog wel valide? Check het regelmatig, hiermee voorkom je onverklaarbare fouten. En klopt de HTML wel? Gebruik je de juiste elementen op de juiste plek?
+
+- Ik denk het wel?
+
+9. Toegankelijkheids-check
+
+Check regelmatig of je website nog wel goed te gebruiken is met het toetsenbord. En of hij nog te begrijpen is met een screenreader. Zitten er alt-teksten op de afbeeldingen? Is het contrast overal hoog genoeg?
+
+- Het is toegankelijk.
+
+10. Is mijn website nog wel adaptief?
+
+Werkt mijn website nog met light en darkmode? Wat gebeurt er met de prefers-reduced-motion instelling? Werkt het op verschillende schermgroottes?
+
+- De website groote is nog niet goed, maar het heeft een soort darkmode.
+
+11. Voldoet mijn website nog wel aan de wet?
+
+Overtreed je de wet niet? Bijvoorbeeld door afbeeldingen van iemand anders te gebruiken, door je niet aan de AVG te houden, of door iets ontoegankelijk te maken?
+
+- Nee.
+
+12. Zie ik mezelf nog wel terug in wat ik doe?
+
+Kijk regelmatig kritisch naar wat je aan het doen bent en vraag je dan af of dit wel is wat je wil maken, en wat je wil leren.
+
+- Ik weet het niet mijn visie was niet compleet, de basis was er ook nog niet.
+
+Retrospective formulier
+
+![Retrospective](img-readme/Retrospective-sprint1-slecht-naar-goed.png)
+![Retrospective](img-readme/Retrospective-sprint1-slecht-naar-goed-2.png)
+
+![Retrospective](img-readme/Retrospective-sprint1-grafriek.png)
+![Retrospective](img-readme/Retrospective-sprint1-berg.png)
+Retrospective sprint 1
+
+### 14 sept
+
+Ik heb een link aangeleged en heb progressie gemaakt bij de start pagina.
+
+Leg uit wanneer een website 'lelijk' wordt
+Wanneer het moeilijk is om naar te kijken.
+
+Vertel welke volgende stap je neemt om je website responsive te maken.
+Ik maak de grid minder kolomen
+
+Heb je een plan om de volgende stap voor vrijdag te maken?
+Ik ga proberen om de start pagina af te hebben en de teskt van de hond af te hebben.
+
+![Bi-Weekly_geek](img-readme/Bi-Weekly-Geek-sprint1-2.png)
+![Bi-Weekly_geek](img-readme/Bi-weekly-Geek.png)
+Bi weekly geek 1
+
+### 12 sept
+
+Ik heb de artikelen gelezen. Wat ik ervan begrijp is: Het internet is erg fragiel en 3 bedrijven hebben een monopolie op data. Er is een beweging van Berners-lee om alle systeem meer compatebiel te maken en dat het meer trasparant wordt.
+
+### 11 sept
+
+Mijn concept van digital garden is goed gekeurd de docenten en ze zijn blij over mijn voortgang.
+
+Reminder dark mode doeer achtergrond van huis naar nacht te maken.
+
+Ik heb de darkmode tot praat gekregen en meer knoppen ingevoegd.
+
+### 10 sept
+
+Ik heb 5 schetsen gemaakt. Een deepdive gedaan over gradients en ik heb code geschreven voor mijn garden.
+
+![schets-sprint-1](img-readme/Schets%20sprint1.png)
+
+![Schets2-Sprint1](img-readme/Schets2-sprint1.png)
+Schetsen sprint 1
+
+### 9 sept
+
+Vragenlijst voor Jesse
+
+Eigen verbinding:​
+
+Wat is voor jou de essentie van wat je hebt gepresenteerd qua onderwerp en geschreven/beeldende content? ​
+
+Een webby websites met veel verschillende films van alle gengres erin.
+
+Welke woorden uit de kwaliteitenlijst kunnen passen bij je onderwerp?​
+
+Initief rijk, doelgericht
+
+Heeft 'de ander' een aanvulling op je onderwerp?​
+
+Probeer het niet te groot te maken.
+
+Wat is het karakter/ de uitstraling/ het gevoel dat bij het onderwerp past? (bijv. stoer, hip, vrolijk, dynamisch, eenvoudig, enz.)​
+
+Complex
+
+Welke inspiratie kun je uit je 25 afbeeldingen halen. Stijl, een gevoel, vorm, enz.
+
+Erg gemixten stijlen en dat is het goal.
+
+Verder heb ik nog de lessen afgemaakt
+
+### Casper vragenlijst
+
+Vragenlijst voor Casper.
+
+Eigen verbinding:​
+
+Wat is voor jou de essentie van wat je hebt gepresenteerd qua onderwerp en geschreven/beeldende content?
+
+​Ik dat mensen leren leren hoe ze goed dieren kunnen verzorgen.
+
+Welke woorden uit de kwaliteitenlijst kunnen passen bij je onderwerp?​
+
+Diervriendelijk.
+
+Heeft 'de ander' een aanvulling op je onderwerp?​
+
+Tips voor animatie
+
+Wat is het karakter/ de uitstraling/ het gevoel dat bij het onderwerp past? (bijv. stoer, hip, vrolijk, dynamisch, eenvoudig, enz.)​
+
+Vrolijk
+
+Welke inspiratie kun je uit je 25 afbeeldingen halen. Stijl, een gevoel, vorm, enz.​
+
+Veel dierensoorten. Alle dieren lijken niet op elkaar.​
+
+Een stip op de horizon​
+
+Wat zou je willen vertellen over het onderwerp aan een ander?
+
+Het is dat je een dier goed verzorgd daarom wil
+
+en hoe zou je dat voor je kunnen zien? middels welke beeld, tekst, animatie, inhoudelijke content? (bijv. Ik wil voornamelijk afbeeldingen tonen, als een soort Pinterest, of ik wil muziek fragmenten laten horen, of ik gebruik korte teksten met eigen foto's). ​
+
+Vul deze zin aan:
+Ik wil mijn Digital Garden laten gaan over dieren verzorgen.
+en wil dat laten zien door …………………………….. aan content te tonen.
+Ik begin met een stukje eigen content over …………………….… . ​
+Als het begin is gemaakt kan ik mijn Garden verder uitbreiden door ….....................​
+
+### 8 sept
+
+Vandaag ben ik bij de deepdive van vasillis geweest en ik weet nu hoe je unieke elementen kan aanmaken en light en dark mode kan maken ik heb nog moeitemet de afbeelding ander maken.
+
+### Idee digital garden
+
+PetJam!
+Ik hou van huisdieren dus mischien verzammeling over mischien geschiedenis van de soort huisdieren en waarom ze mensen helpen. Ook de reden dat mensen ze lief vinden? Ander video games ik vindt video games geweldig tijd verdrijf, maar het beperkt creativiteit? rambeling.
+
+### 7 sept - workshop
+
+De autheur wil je overhalen op zijn definitie van digital gardening.
+
+De tekst gaat over de geschiedenis van digital gardening: Het was eerst een website met een verzameling van informatie, daarna wedt het opschonen van een website, het werdt hierna populairder en gingen meer mensen gardens maken. Digital garden zijn sites waar informatie op ene chaotische format staan, die je zelf heb gemaakt.
+
+Websites analyseren:
+
+Sixey.es meest expresief die ik heb bezocht, Vit baisa erg saai alleen teskt en niks meer ook geen kleur.
+
+Beste site b00k.net erg toegankelijk.
+Slechste site Vit baisa niet mooi
+
+- Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
+  Een digital garden is iemands eigen website die chaotisch kan zoijn waar ze alle informatie die ze willen kunnen opzetten.
+
+- Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.
+  Een website is 'webby' als het adeptief, interactief, toegankelijk, volwassen en expresief is.
+
+- Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
+
+PetJam!
+Ik hou van huisdieren dus mischien verzammeling over mischien geschiedenis van de soort huisdieren en waarom ze mensen helpen. Ook de reden dat mensen ze lief vinden? Ander video games ik vindt video games geweldig tijd verdrijf, maar het beperkt creativiteit? rambeling.
+
+Verdere idee over hoe ik een garden kan maken is Wierd pets waar ik huisdieren vindt die je niet vaak tegen komt en hoe je het verzorgt?
+
+### 5 sept - deepdives
+
+Ik heb vandaag geleerd hoe je beter kan schetsen en heb nieuwe features van CSS gevonden waaronder unieke classes.
+
+![Schets-Telefoon](img-readme/Schets-telefoon.png)
+
+### 3 sept - [Workshop]
+
+Ik heb mijn bassis met HTML en CSS ververst en micro interacties ververst ik heb daarbij een nieuwe design vor wok to walk gemaakt.
+
+### 31 aug - Kickoff
+
+Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
+
+1. Leg uit wat een source hosting platform is en voor welke jij gekozen hebt.
+   Een source hosting platform is een platform dat iets online kan zetten zodat meerder mensen erbij kunnen de code van een platform zit daarin. Ik heb codeberg gekozen, omdat github niet werkte.
+2. Vertel welke domeinnaam jij gekozen hebt en hoe je die hebt gekoppeld aan jouw pagina.
+   Digi-Journey, omdat coderen van een website nieuw voor mij is. Ik heb het nog niet kunnen koppelen.
+
+3. Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
+   Ik heb nog geen aanpassingen kunnen doen, want ik heb de website nog niet klaar.
+   Als je de code opslaat zal het bedrijf waarvan je het domein heb gekocht het aan;passen in een tijdje.

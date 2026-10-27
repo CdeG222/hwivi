@@ -1,0 +1,638 @@
+/**************************
+* MARK: Fonts
+**************************/
+/* Waarom werkt dit niet???? */
+@font-face {
+  font-family: "Kat";
+  src: url(../type/Cattie-Regular.ttf); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: "Seraphs";
+  src: url(../type/SeraphsVF.woff2) format("woff2"); /* Modern Browsers */
+}
+
+/**************************
+* MARK: Custom properties
+**************************/
+
+html {
+  color-scheme: light dark;
+
+  --h1: rgb(255, 210, 105);
+  --background-secondary: light-dark(
+    rgba(255, 253, 253, 0.75),
+    rgba(125, 125, 125, 0.75)
+  );
+  --background-primary: light-dark(
+    rgba(247, 180, 73, 0.75),
+    rgba(98, 57, 52, 0.75)
+  );
+  --Cookies-primairy: light-dark(White, black);
+  --Cookies-secondary: light-dark(black, white);
+  --knop-text: light-dark(black, white);
+  --knop-background: light-dark(white, grey);
+  --knop-border: light-dark(black, grey);
+  --knop-hover: light-dark(#a8a6a6, #a8a6a6);
+  --terugknop-background: light-dark(black, white);
+  --terugknop-text: light-dark(white, black);
+  --terugknop-hover: light-dark(rgb(62, 61, 61), rgb(219, 203, 203));
+  --contrast-light-primairy: light-dark(yellow, black);
+  --contrast-light-secondary: light-dark(black, yellow);
+  --contrast-light-3: light-dark(yellow, black);
+  --contrast-light-text: light-dark(black, yellow);
+  --focus: light-dark(black, yellow);
+  --font-size-p: 1.1em;
+  --font-size-nav-s: 1.25em;
+  --font-size-nav-m: 1.15em;
+  --line-height: 1.5;
+  --border-width: 0.1em;
+  --white-space: 2em;
+
+  --step-0: clamp(1rem, 0.9167rem + 0.3704vw, 1.25rem);
+  --step-1: clamp(1.2rem, 0.975rem + 1vw, 1.875rem);
+  --step-2: clamp(1.44rem, 0.9825rem + 2.0333vw, 2.8125rem);
+  --step-3: clamp(1.728rem, 0.8978rem + 3.69vw, 4.2188rem);
+  --step-4: clamp(2.0736rem, 0.6554rem + 6.303vw, 6.3281rem);
+  --step-5: clamp(2.4883rem, 0.1537rem + 10.3761vw, 9.4922rem);
+}
+
+/**************************
+* MARK: Algemene Styling
+**************************/
+html {
+  scroll-padding-top: 6em;
+
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+body > a:nth-of-type(1) {
+  position: fixed;
+  left: -9999em;
+
+  z-index: 1;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: yellow;
+  color: mediumblue;
+  outline-color: currentcolor;
+
+  &:focus {
+    left: 0;
+  }
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  width: 13em;
+  display: block;
+  height: auto;
+}
+
+dialog {
+  z-index: 10;
+  max-width: 32em;
+
+  background-color: var(--Cookies-primairy);
+  color: var(--Cookies-secondary);
+}
+
+/**************************
+* MARK: Nav
+**************************/
+
+nav {
+  display: flex;
+  grid-area: nav;
+  margin-top: 5%;
+  height: fit-content;
+  margin-bottom: 35%;
+  img {
+    position: absolute;
+    top: 15%;
+    width: 100vw;
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/**************************
+* MARK: Body
+**************************/
+/* Scherm 1 body */
+.home {
+  height: 100dvh;
+
+  background-image: linear-gradient(
+    var(--background-primary),
+    var(--background-secondary)
+  );
+
+  background-image: light-dark(
+    url("/assets/images/Huis-licht.png"),
+    url("/assets/images/Huis-donker.png")
+  );
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* foto van kat op scherm 2 */
+.kat-foto {
+  width: 200em;
+}
+
+/**************************
+* MARK: Body met Grid
+**************************/
+/* Body van pagina 2 */
+.kat {
+  overflow-x: hidden;
+  grid-template-columns: 1fr auto 1fr;
+
+  grid-template-areas:
+    "nav nav nav"
+    "knop . ."
+    "main main main";
+
+  @media (width > 550px) {
+    grid-template-areas:
+      "nav nav nav"
+      "knop . ."
+      ". main .";
+  }
+  background-image: light-dark(
+    url("/assets/images/Huis-licht.png"),
+    url("/assets/images/Huis-donker.png")
+  );
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (prefers-contrast: more) {
+  .kat {
+    background-color: var(--contrast-light-primairy);
+    background-image: none;
+  }
+}
+
+/**************************
+* MARK: Knoppen
+**************************/
+/* Springende kat knop */
+/* Kat in pagina 2 */
+.kat-link2 {
+  position: absolute;
+  left: calc(50% + 1vw - 2em);
+  top: calc(10% + 3vh);
+  width: 5em;
+  height: 5em;
+
+  @media (width > 350px) {
+    left: calc(50% + 1vw - 3em);
+    top: calc(5% + 1vw);
+    width: 10em;
+    height: 13em;
+  }
+
+  @media (width > 500px) {
+    left: calc(50% + 1vw - 6em);
+    top: calc(5% + 8vh - 5em);
+    width: 15em;
+    height: 13em;
+  }
+
+  @media (width > 750px) {
+    left: calc(50% + 1vw - 6em);
+    top: calc(10% + 8vh - 5em);
+  }
+  @media (width > 1000px) {
+    left: calc(50% + 1vw - 6em);
+    top: calc(15% + 1vh);
+  }
+  z-index: 2;
+  &:hover {
+    filter: drop-shadow(0 0 1em white);
+  }
+  &:focus {
+    border-radius: 3px;
+    outline: 0.2em dashed var(--focus);
+    filter: drop-shadow(0 0 1em white);
+  }
+}
+/* Kat in net knop */
+.kat-link {
+  position: absolute;
+  left: calc(50% + 2vw);
+  top: calc(50% + 8vh);
+
+  @media (aspect-ratio > 736/1308) {
+    top: calc(50% + 22vw - 2em);
+  }
+
+  translate: -50% -50%;
+
+  width: clamp(7rem, 5.5rem + 7.5vw, 10rem);
+
+  &:hover {
+    filter: drop-shadow(0 0 1em white);
+  }
+  &:focus {
+    border-radius: 3px;
+    outline: 0.2em dashed var(--focus);
+    filter: drop-shadow(0 0 1em white);
+  }
+}
+/* Animatie knop */
+.spring-kat-link-naar-muziek {
+  position: absolute;
+
+  --size: clamp(7rem, 5.5rem + 7.5vw, 10rem);
+
+  left: calc(50% - 25vw - var(--size) * 0.5);
+  top: calc(50% + 40vh - var(--size) * 0.5);
+
+  width: var(--size);
+
+  animation-name: --13-keyframes-animation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+
+  transform-origin: center bottom;
+
+  @media (prefers-reduced-motion) {
+    animation: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  &:hover {
+    filter: drop-shadow(0 0 1em white);
+  }
+  &:focus {
+    border-radius: 3px;
+    outline: 0.2em dashed var(--focus);
+    filter: drop-shadow(0 0 1em white);
+  }
+}
+
+/* Terug knop styling */
+.terug-knop {
+  grid-area: knop;
+  top: 5%;
+  left: 5%;
+
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  color: var(--terugknop-text);
+  background-color: var(--terugknop-background);
+
+  border: solid 1px;
+  border-color: var(--knop-border);
+  border-radius: 10px;
+
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 12px;
+
+  &::before {
+    content: "←";
+  }
+  &:hover {
+    background-color: var(--terugknop-hover);
+  }
+  @media (width > 700px) {
+    font-size: 25px;
+  }
+}
+button,
+summary {
+  cursor: pointer;
+}
+/* Dit is de style voor cookie knoppen. */
+.weiger-knop,
+.accepteer-knop {
+  background-color: var(--knop-background);
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--knop-text);
+  border: solid 1px;
+  border-color: var(--knop-border);
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  width: min-content;
+  text-wrap: nowrap;
+  &:hover {
+    background-color: var(--knop-hover);
+  }
+}
+
+.accepteer-knop {
+  justify-self: end;
+}
+/* Invidu styling voor weiger knop */
+
+/* Code voor de cookie plaatje aanpassen. */
+main > button {
+  appearance: none;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 5em;
+
+  &:hover {
+    filter: drop-shadow(0 0 1em white);
+  }
+  &:focus {
+    border-radius: 3px;
+    outline: 0.2em dashed var(--focus);
+    filter: drop-shadow(0 0 1em white);
+  }
+}
+
+nav > button {
+  appearance: none;
+  border: none;
+  background: none;
+
+  position: absolute;
+  /* Top is hieranders, omdat de height anders niet werkt voor de focus. Anders zou het ook 5% zijn */
+  top: 2%;
+  right: 5%;
+  height: 6em;
+  width: 5em;
+  &:hover {
+    filter: drop-shadow(0 0 1em white);
+  }
+  &:focus {
+    border-radius: 3px;
+    outline: 0.2em dashed var(--focus);
+    filter: drop-shadow(0 0 1em white);
+  }
+}
+
+body.consent main > button {
+  img {
+    content: url("../images/Gegeten-Cookie.png");
+  }
+}
+
+/* Wow ik heb het gefixt :) */
+body.consent nav > button {
+  img {
+    content: url("../images/Gegeten-Cookie.png");
+  }
+}
+a,
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  &:focus-visible {
+    border-radius: 3px;
+    outline: 0.2em dashed var(--focus);
+  }
+}
+
+/**************************
+* MARK: Typografie
+**************************/
+/* Code voor de background in home voor H1 */
+.home-h1 {
+  color: var(--h1);
+  position: absolute;
+  top: 0;
+  left: calc(30% + 3.5vw);
+
+  font-size: var(--step-5);
+
+  font-family: "Seraphs", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: var(--step-4);
+  font-variation-settings:
+    "wght" 200,
+    "SRFS" 30;
+}
+h2 {
+  margin-top: 5em;
+  font-size: var(--step-3);
+  font-variation-settings:
+    "wght" 150,
+    "SRFS" 0;
+}
+h3 {
+  margin-top: 2em;
+  margin-bottom: 5px;
+  font-size: var(--step-2);
+  font-variation-settings:
+    "wght" 130,
+    "SRFS" 0;
+}
+h4 {
+  font-size: var(--step-0);
+  font-variation-settings:
+    "wght" 115,
+    "SRFS" 0;
+}
+
+p {
+  margin-top: 5px;
+  line-height: 1.8;
+  font-size: var(--font-size-p);
+  @media (prefers-contrast: more) {
+    color: var(--contrast-light-text);
+  }
+}
+/* Body van scherm 2 */
+.kat {
+  font-family: "Seraphs", sans-serif;
+  font-variation-settings:
+    "wght" 125,
+    "SRFS" 0;
+  display: grid;
+}
+/**************************
+* MARK: Header
+**************************/
+
+header {
+  grid-area: header;
+}
+
+/**************************
+* MARK: Dialog
+**************************/
+
+/* Dialog code voor animatie en kleur */
+dialog {
+  /* styling van de dialog*/
+
+  &::backdrop {
+    background-color:
+      var(--Cookies-primairy), var(--Cookies-secondary); /* transparant wit - natuurlijk beter om hier een light-dark() custom property te gebruiken */
+    backdrop-filter: blur(2px); /* px gebruiken voor blur is 👍 :) */
+  }
+}
+
+main dialog {
+  scale: 0;
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition:
+      0.2s allow-discrete,
+      display 0.2s allow-discrete;
+  }
+  transform-origin: top center;
+}
+
+/* Knoppen gefixt met hulp van student */
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  p {
+    grid-column: 1/-1;
+  }
+  ul {
+    grid-column: 1/-1;
+  }
+}
+
+main dialog[open] {
+  scale: 1;
+}
+
+@starting-style {
+  main dialog[open] {
+    scale: 0;
+  }
+}
+
+/**************************
+* MARK: Main
+**************************/
+/* Code voor de main styling */
+
+main:nth-of-type(2) {
+  height: 300vdh;
+}
+
+main {
+  align-items: center;
+  line-height: var(--line-height);
+  grid-area: main;
+
+  gap: var(--white-space);
+  padding: var(--white-space);
+
+  grid-area: main;
+  max-width: 64ch;
+}
+
+#main {
+  background-image: linear-gradient(
+    var(--background-primary),
+    var(--background-secondary)
+  );
+  border-radius: 20px;
+  @media (prefers-contrast: more) {
+    background-color: var(--contrast-light-primairy);
+  }
+}
+/* *************************
+* MARK: Article ...
+************************* */
+
+/* *************************
+* MARK: Section ...
+************************* */
+
+/* *************************
+* MARK: Keyframes ...
+************************* */
+
+/* Code van Sanne */
+
+@keyframes --13-keyframes-animation {
+  0% {
+    /* JOUW CODE HIER */
+    /* scale */
+    scale: 1;
+  }
+  4% {
+    /* JOUW CODE HIER */
+    /* scale */
+    scale: 1.2 0.8;
+  }
+  7% {
+    /* JOUW CODE HIER */
+    /* scale */
+    scale: 0.9 1.1;
+  }
+  9% {
+    /* JOUW CODE HIER */
+    /* scale, translate en animation-timing-function */
+    translate: 0 0;
+    scale: 1.35 0.65;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  15% {
+    /* JOUW CODE HIER */
+    /* scale, translate en animation-timing-function */
+    translate: 0 -3em;
+    scale: 0.67 1.5;
+    animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  }
+  21% {
+    /* JOUW CODE HIER */
+    /* scale en translate  */
+    translate: 0 0;
+    scale: 2 0.25;
+  }
+  24% {
+    /* JOUW CODE HIER */
+    /* scale */
+    scale: 0.8 1.2;
+  }
+  26% {
+    /* JOUW CODE HIER */
+    /* scale */
+    scale: 1.1 0.9;
+  }
+  27% {
+    /* JOUW CODE HIER */
+    /* scale */
+    scale: 0.95 1.05;
+  }
+  29% {
+    /* JOUW CODE HIER */
+    /* scale */
+    scale: 1.02 0.98;
+  }
+  30%,
+  100% {
+    /* JOUW CODE HIER */
+    /* scale */
+    scale: 1;
+  }
+}
